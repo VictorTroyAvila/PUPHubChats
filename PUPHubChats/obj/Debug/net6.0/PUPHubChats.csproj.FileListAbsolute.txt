@@ -1,0 +1,15 @@
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChats.exe
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChats.deps.json
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChats.runtimeconfig.json
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChats.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChats.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.csproj.AssemblyReference.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.AssemblyInfoInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.AssemblyInfo.cs
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.csproj.CoreCompileInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\refint\PUPHubChats.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.genruntimeconfig.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\ref\PUPHubChats.dll
