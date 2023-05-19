@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features2", "Features2\Features2.csproj", "{906A11C1-D3D2-4162-B6F7-AC232D6A7F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features2", "Features2\Features2.csproj", "{906A11C1-D3D2-4162-B6F7-AC232D6A7F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactions", "Reactions\Reactions.csproj", "{F1CBF6E6-E048-4C5B-912C-944843424229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{906A11C1-D3D2-4162-B6F7-AC232D6A7F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906A11C1-D3D2-4162-B6F7-AC232D6A7F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906A11C1-D3D2-4162-B6F7-AC232D6A7F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CBF6E6-E048-4C5B-912C-944843424229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CBF6E6-E048-4C5B-912C-944843424229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CBF6E6-E048-4C5B-912C-944843424229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CBF6E6-E048-4C5B-912C-944843424229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

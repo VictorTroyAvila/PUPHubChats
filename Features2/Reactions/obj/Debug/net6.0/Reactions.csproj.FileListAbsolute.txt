@@ -1,0 +1,15 @@
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\bin\Debug\net6.0\Reactions.exe
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\bin\Debug\net6.0\Reactions.deps.json
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\bin\Debug\net6.0\Reactions.runtimeconfig.json
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\bin\Debug\net6.0\Reactions.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\bin\Debug\net6.0\Reactions.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.csproj.AssemblyReference.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.AssemblyInfoInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.AssemblyInfo.cs
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.csproj.CoreCompileInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\refint\Reactions.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\Reactions.genruntimeconfig.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features2\Reactions\obj\Debug\net6.0\ref\Reactions.dll
