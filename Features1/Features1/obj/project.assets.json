@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\Features1\\Features1\\Features1.csproj",
+      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Features1\\Features1.csproj",
       "projectName": "Features1",
-      "projectPath": "C:\\Users\\Bentor\\source\\repos\\Features1\\Features1\\Features1.csproj",
+      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Features1\\Features1.csproj",
       "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bentor\\source\\repos\\Features1\\Features1\\obj\\",
+      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Features1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
