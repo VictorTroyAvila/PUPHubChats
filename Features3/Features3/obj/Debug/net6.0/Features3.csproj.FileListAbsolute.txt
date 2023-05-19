@@ -1,0 +1,15 @@
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.csproj.AssemblyReference.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.AssemblyInfoInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.AssemblyInfo.cs
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.csproj.CoreCompileInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\bin\Debug\net6.0\Features3.exe
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\bin\Debug\net6.0\Features3.deps.json
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\bin\Debug\net6.0\Features3.runtimeconfig.json
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\bin\Debug\net6.0\Features3.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\bin\Debug\net6.0\Features3.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\refint\Features3.dll
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\Features3.genruntimeconfig.cache
+C:\Users\Bentor\source\repos\PUPHubChats\Features3\Features3\obj\Debug\net6.0\ref\Features3.dll
