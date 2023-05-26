@@ -102,7 +102,19 @@ internal class program {
 
         case '2':
             Console.WriteLine("2");
-            break;
+                Console.WriteLine("Type 'Thank You' to exit chat");
+                do
+                {
+                    Console.WriteLine("You:");
+                    chat1 = Console.ReadLine();
+                    Console.WriteLine();
+
+                    Console.WriteLine(prof[0] + ":");
+                    chat2 = Console.ReadLine();
+                    Console.WriteLine();
+                }
+                while (chat1 != "Thank You");
+                break;
 
         default: 
             Console.WriteLine("Bye");
