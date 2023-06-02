@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PUPHubChats/1.0.0": {
-        "dependencies": {
-          "Features2": "1.0.0"
-        },
-        "runtime": {
-          "PUPHubChats.dll": {}
-        }
-      },
       "Features2/1.0.0": {
         "runtime": {
           "Features2.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "PUPHubChats/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Features2/1.0.0": {
       "type": "project",
       "serviceable": false,

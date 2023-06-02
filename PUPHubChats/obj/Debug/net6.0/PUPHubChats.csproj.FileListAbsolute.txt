@@ -13,3 +13,9 @@ C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\refint\PUP
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.pdb
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.genruntimeconfig.cache
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\ref\PUPHubChats.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\Features2.deps.json
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\Features2.runtimeconfig.json
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\Features2.exe
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\Features2.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\Features2.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.csproj.CopyComplete

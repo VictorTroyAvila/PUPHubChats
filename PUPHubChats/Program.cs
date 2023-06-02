@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Features2;
+using System.Collections;
 internal class program {
 
     public static void Main (String[] args) {
@@ -9,7 +10,7 @@ internal class program {
     Console.WriteLine("Welcome to the PUPHUB's ChatRoom");
     Console.WriteLine("How may I help you today");
     Console.WriteLine("[1] Chat with Prof");
-    Console.WriteLine("[2] Chat with Student");
+    Console.WriteLine("[2] Search Student");
     Console.WriteLine("[X] Leave ChatRoom");
     choice = Console.ReadLine()[0];
 
@@ -101,6 +102,11 @@ internal class program {
                 break;
 
         case '2':
+                string input;
+
+                Console.WriteLine("Enter Name: ");
+                input = Console.ReadLine();
+                Class1 search = new Class1(input);
             break;
 
         default: 
