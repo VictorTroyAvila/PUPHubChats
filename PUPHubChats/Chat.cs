@@ -21,17 +21,17 @@ namespace PUPHubChats
                 Console.WriteLine("You:");
                 chat1 = Console.ReadLine();
                 Console.WriteLine();
-                if (chat1 != "Chat Close")
+                if (chat1 == "Chat Close")
                 {
-                    continue;
+                    break;
                 }
                 
                 Console.WriteLine(prof[i] + ":");
                 chat2 = Console.ReadLine();
                 Console.WriteLine();
-                if (chat2 != "Chat Close")
+                if (chat2 == "Chat Close")
                 {
-                    continue;
+                    break;
                 }
             }
             while (chat1 != "Chat Close");
