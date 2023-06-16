@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Reactions\\Reactions.csproj": {}
+    "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Reactions\\Reactions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Reactions\\Reactions.csproj": {
+    "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Reactions\\Reactions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Reactions\\Reactions.csproj",
+        "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Reactions\\Reactions.csproj",
         "projectName": "Reactions",
-        "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Reactions\\Reactions.csproj",
+        "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Reactions\\Reactions.csproj",
         "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Reactions\\obj\\",
+        "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features1\\Reactions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
