@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\bin\Debug\net6.0\GroupChat.exe
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\bin\Debug\net6.0\GroupChat.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\bin\Debug\net6.0\GroupChat.runtimeconfig.json
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\bin\Debug\net6.0\GroupChat.dll
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\bin\Debug\net6.0\GroupChat.pdb
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.dll
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\refint\GroupChat.dll
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.pdb
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\GroupChat.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documents\GitHub\PUPHubChats\GroupChat\obj\Debug\net6.0\ref\GroupChat.dll
