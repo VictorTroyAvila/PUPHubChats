@@ -2,28 +2,67 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Features2/1.0.0": {
+      "PUPHubChatsData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PUPHubChatsModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PUPHubChatsData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PUPHubChatsData.dll": {}
+        }
+      },
+      "PUPHubChatsModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Features2.dll": {}
+          "bin/placeholder/PUPHubChatsModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Features2.dll": {}
+          "bin/placeholder/PUPHubChatsModels.dll": {}
+        }
+      },
+      "PUPHubChatsRules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PUPHubChatsData": "1.0.0",
+          "PUPHubChatsModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PUPHubChatsRules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PUPHubChatsRules.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Features2/1.0.0": {
+    "PUPHubChatsData/1.0.0": {
       "type": "project",
-      "path": "../Features2/Features2/Features2.csproj",
-      "msbuildProject": "../Features2/Features2/Features2.csproj"
+      "path": "../PUPHubChatData/PUPHubChatsData.csproj",
+      "msbuildProject": "../PUPHubChatData/PUPHubChatsData.csproj"
+    },
+    "PUPHubChatsModels/1.0.0": {
+      "type": "project",
+      "path": "../PUPHubChatsModels/PUPHubChatsModels.csproj",
+      "msbuildProject": "../PUPHubChatsModels/PUPHubChatsModels.csproj"
+    },
+    "PUPHubChatsRules/1.0.0": {
+      "type": "project",
+      "path": "../PUPHubChatsRules/PUPHubChatsRules.csproj",
+      "msbuildProject": "../PUPHubChatsRules/PUPHubChatsRules.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Features2 >= 1.0.0"
+      "PUPHubChatsData >= 1.0.0",
+      "PUPHubChatsModels >= 1.0.0",
+      "PUPHubChatsRules >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +92,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Features2\\Features2.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\Features2\\Features2\\Features2.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj"
+            },
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
+            },
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj"
             }
           }
         }

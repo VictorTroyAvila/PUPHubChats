@@ -1,0 +1,17 @@
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsRules.deps.json
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsRules.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsRules.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.csproj.AssemblyReference.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.AssemblyInfoInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.AssemblyInfo.cs
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.csproj.CoreCompileInputs.cache
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\refint\PUPHubChatsRules.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\ref\PUPHubChatsRules.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsData.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsModels.dll
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsData.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\bin\Debug\net6.0\PUPHubChatsModels.pdb
+C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChatsRules\obj\Debug\net6.0\PUPHubChatsRules.csproj.CopyComplete

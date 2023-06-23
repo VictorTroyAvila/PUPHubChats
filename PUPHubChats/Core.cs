@@ -1,5 +1,4 @@
-﻿using Features2;
-using PUPHubChats;
+﻿using PUPHubChats;
 public class Core
 {
      static void Main(String[] args)
@@ -23,16 +22,11 @@ public class Core
                 Console.WriteLine("[5]Ms. Quinsayas");
                 choice = Console.ReadLine()[0];
 
-                Chat ct = new Chat(choice);
+                ChatSystem ct = new ChatSystem(choice);
 
                 break;
 
             case '2':
-                string input;
-
-                Console.WriteLine("Enter Name: ");
-                input = Console.ReadLine();
-                SearchEngine search = new SearchEngine(input);
                 break;
 
             default:

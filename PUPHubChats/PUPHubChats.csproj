@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Features2\Features2\Features2.csproj" />
+    <ProjectReference Include="..\PUPHubChatData\PUPHubChatsData.csproj" />
+    <ProjectReference Include="..\PUPHubChatsModels\PUPHubChatsModels.csproj" />
+    <ProjectReference Include="..\PUPHubChatsRules\PUPHubChatsRules.csproj" />
   </ItemGroup>
 
 </Project>
