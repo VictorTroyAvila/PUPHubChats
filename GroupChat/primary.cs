@@ -10,7 +10,7 @@ namespace GroupChat
 
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Welcome to the Group Chat System!");
+			Console.WriteLine("Welcome to our Group Chat System!");
 
 			while (true)
 			{
