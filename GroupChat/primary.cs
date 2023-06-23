@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 
 
-namespace GroupChat
+using GroupChat
 {
-	public class primary
+	public class Primary
 	{
 		static Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
 
