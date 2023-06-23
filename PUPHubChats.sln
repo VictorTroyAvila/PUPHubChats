@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUPHubChats", "PUPHubChats\PUPHubChats.csproj", "{60FA40AA-8F2A-44C7-AE4E-6871523EC8B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUPHubChatsRules", "PUPHubChatsRules\PUPHubChatsRules.csproj", "{B48FD56C-E9F7-401E-9CD2-E368F9C29379}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUPHubChatsModels", "PUPHubChatsModels\PUPHubChatsModels.csproj", "{397B030F-2FDA-40A9-878A-C09AC7506557}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUPHubChatsData", "PUPHubChatData\PUPHubChatsData.csproj", "{74CCE83D-B43E-42EE-A8B5-271C8B960684}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features_3", "Features_3\Features_3.csproj", "{7679DD1E-2746-4382-BC06-BADF9A0C038E}"
 EndProject
 Global
@@ -19,22 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60FA40AA-8F2A-44C7-AE4E-6871523EC8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60FA40AA-8F2A-44C7-AE4E-6871523EC8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60FA40AA-8F2A-44C7-AE4E-6871523EC8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60FA40AA-8F2A-44C7-AE4E-6871523EC8B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B48FD56C-E9F7-401E-9CD2-E368F9C29379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B48FD56C-E9F7-401E-9CD2-E368F9C29379}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B48FD56C-E9F7-401E-9CD2-E368F9C29379}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B48FD56C-E9F7-401E-9CD2-E368F9C29379}.Release|Any CPU.Build.0 = Release|Any CPU
-		{397B030F-2FDA-40A9-878A-C09AC7506557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{397B030F-2FDA-40A9-878A-C09AC7506557}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{397B030F-2FDA-40A9-878A-C09AC7506557}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{397B030F-2FDA-40A9-878A-C09AC7506557}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74CCE83D-B43E-42EE-A8B5-271C8B960684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74CCE83D-B43E-42EE-A8B5-271C8B960684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74CCE83D-B43E-42EE-A8B5-271C8B960684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74CCE83D-B43E-42EE-A8B5-271C8B960684}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7679DD1E-2746-4382-BC06-BADF9A0C038E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7679DD1E-2746-4382-BC06-BADF9A0C038E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7679DD1E-2746-4382-BC06-BADF9A0C038E}.Release|Any CPU.ActiveCfg = Release|Any CPU
