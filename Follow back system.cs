@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Program
+class FollowBackSystem
 {
     static Dictionary<string, List<string>> followers = new Dictionary<string, List<string>>();
 

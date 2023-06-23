@@ -1,6 +1,6 @@
 ﻿using System;
 
-class ChatSystem
+class EnableAndDisable
 {
     static void Main(string[] args)
     {
