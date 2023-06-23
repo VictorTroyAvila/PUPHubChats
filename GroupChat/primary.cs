@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-using GroupChat
+namespace GroupChat
 {
 	public class Primary
 	{
