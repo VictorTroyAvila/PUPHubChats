@@ -66,19 +66,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bentor\\.nuget\\packages\\": {}
+    "C:\\Users\\Cxrru\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
+      "projectUniqueName": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
       "projectName": "PUPHubChats",
-      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
-      "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\obj\\",
+      "projectPath": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
+      "packagesPath": "C:\\Users\\Cxrru\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChats\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cxrru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -92,14 +97,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj"
+            "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj": {
+              "projectPath": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj"
             },
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
+            "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
+              "projectPath": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
             },
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj"
+            "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj": {
+              "projectPath": "C:\\Users\\Cxrru\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj"
             }
           }
         }
@@ -129,7 +134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
