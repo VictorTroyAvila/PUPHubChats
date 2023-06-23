@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\GroupChat\\GroupChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj": {
+    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\GroupChat\\GroupChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
-        "projectName": "PUPHubChats",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChats\\PUPHubChats.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\GroupChat\\GroupChat.csproj",
+        "projectName": "GroupChat",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\GroupChat\\GroupChat.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChats\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\PUPHubChats\\GroupChat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
