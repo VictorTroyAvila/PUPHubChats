@@ -1,0 +1,15 @@
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\bin\Debug\net6.0\Features_3.exe
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\bin\Debug\net6.0\Features_3.deps.json
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\bin\Debug\net6.0\Features_3.runtimeconfig.json
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\bin\Debug\net6.0\Features_3.dll
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\bin\Debug\net6.0\Features_3.pdb
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.csproj.AssemblyReference.cache
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.AssemblyInfoInputs.cache
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.AssemblyInfo.cs
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.csproj.CoreCompileInputs.cache
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.dll
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\refint\Features_3.dll
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.pdb
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\Features_3.genruntimeconfig.cache
+C:\Users\Cxrru\OneDrive\Documents\PUPHubChats\Features_3\obj\Debug\net6.0\ref\Features_3.dll
