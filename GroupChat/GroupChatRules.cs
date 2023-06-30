@@ -1,81 +1,87 @@
 ﻿
-public class GroupChatRules
+using System;
+using System.Collections.Generic;
+
+namespace GroupChat
 {
-	public void JoinGroup(Dictionary<string, List<string>> groups)
+	public class GroupChatRules
 	{
-		Console.Write("\nEnter your username: ");
-		string username = Console.ReadLine();
-		Console.Write("Enter the name of the group you want to join: ");
-		string groupName = Console.ReadLine();
-
-		if (groups.ContainsKey(groupName))
+		public void JoinGroup(Dictionary<string, List<string>> groups)
 		{
-			groups[groupName].Add(username);
-			Console.WriteLine($"You have joined the group: {groupName}.");
-		}
-		else
-		{
-			Console.WriteLine($"The group {groupName} does not exist.");
-		}
-	}
+			Console.Write("\nEnter your username: ");
+			string username = Console.ReadLine();
+			Console.Write("Enter the name of the group you want to join: ");
+			string groupName = Console.ReadLine();
 
-	public void ShowGroupMembers(Dictionary<string, List<string>> groups)
-	{
-		Console.Write("\nEnter the name of the group: ");
-		string groupName = Console.ReadLine();
-
-		if (groups.ContainsKey(groupName))
-		{
-			Console.WriteLine($"\nMembers of the group {groupName}:");
-			foreach (var member in groups[groupName])
+			if (groups.ContainsKey(groupName))
 			{
-				Console.WriteLine(member);
+				groups[groupName].Add(username);
+				Console.WriteLine($"You have joined the group: {groupName}.");
 			}
-		}
-		else
-		{
-			Console.WriteLine("The group does not exist.");
-		}
-	}
-
-	public void ShowJoinedGroups(Dictionary<string, List<string>> groups)
-	{
-		Console.Write("\nEnter your username: ");
-		string username = Console.ReadLine();
-
-		Console.WriteLine($"\nGroups joined by {username}:");
-		bool foundGroup = false;
-		foreach (var group in groups.Keys)
-		{
-			if (groups[group].Contains(username))
+			else
 			{
-				Console.WriteLine(group);
-				foundGroup = true;
+				Console.WriteLine($"The group {groupName} does not exist.");
 			}
 		}
 
-		if (!foundGroup)
+		public void ShowGroupMembers(Dictionary<string, List<string>> groups)
 		{
-			Console.WriteLine("You haven't joined any groups.");
-		}
-	}
+			Console.Write("\nEnter the name of the group: ");
+			string groupName = Console.ReadLine();
 
-	public void CreateGroup(Dictionary<string, List<string>> groups)
-	{
-		Console.Write("\nEnter your username: ");
-		string username = Console.ReadLine();
-		Console.Write("Enter the name of the group you want to create: ");
-		string groupName = Console.ReadLine();
-
-		if (groups.ContainsKey(groupName))
-		{
-			Console.WriteLine($"The group {groupName} already exists.");
+			if (groups.ContainsKey(groupName))
+			{
+				Console.WriteLine($"\nMembers of the group {groupName}:");
+				foreach (var member in groups[groupName])
+				{
+					Console.WriteLine(member);
+				}
+			}
+			else
+			{
+				Console.WriteLine("The group does not exist.");
+			}
 		}
-		else
+
+		public void ShowJoinedGroups(Dictionary<string, List<string>> groups)
 		{
-			groups[groupName] = new List<string> { username };
-			Console.WriteLine($"Group {groupName} created successfully.");
+			Console.Write("\nEnter your username: ");
+			string username = Console.ReadLine();
+
+			Console.WriteLine($"\nGroups joined by {username}:");
+			bool foundGroup = false;
+			foreach (var group in groups.Keys)
+			{
+				if (groups[group].Contains(username))
+				{
+					Console.WriteLine(group);
+					foundGroup = true;
+				}
+			}
+
+			if (!foundGroup)
+			{
+				Console.WriteLine("You haven't joined any groups.");
+			}
+		}
+
+		public void CreateGroup(Dictionary<string, List<string>> groups)
+		{
+			Console.Write("\nEnter your username: ");
+			string username = Console.ReadLine();
+			Console.Write("Enter the name of the group you want to create: ");
+			string groupName = Console.ReadLine();
+
+			if (groups.ContainsKey(groupName))
+			{
+				Console.WriteLine($"The group {groupName} already exists.");
+			}
+			else
+			{
+				groups[groupName] = new List<string> { username };
+				Console.WriteLine($"Group {groupName} created successfully.");
+			}
 		}
 	}
 }
-}
+
