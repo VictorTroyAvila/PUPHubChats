@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Features_3",
-    "\\Features_3\\bin",
-    "\\Features_3\\obj",
     "\\GroupChat",
-    "\\obj"
+    "\\GroupChatData",
+    "\\GroupChatData\\bin",
+    "\\GroupChatData\\bin\\Release",
+    "\\GroupChatData\\obj",
+    "\\GroupChatData\\obj\\Debug",
+    "\\GroupChatData\\obj\\Debug\\net6.0",
+    "\\GroupChatData\\obj\\Release",
+    "\\GroupChatData\\obj\\Release\\net6.0"
   ],
-  "SelectedNode": "\\Features_3\\bin\\Release",
+  "SelectedNode": "\\GroupChatData",
   "PreviewInSolutionExplorer": false
 }
