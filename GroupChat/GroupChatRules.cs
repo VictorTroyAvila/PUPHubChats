@@ -1,11 +1,11 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace GroupChat
 {
 	public class GroupChatRules
 	{
+
 		public void JoinGroup(Dictionary<string, List<string>> groups)
 		{
 			Console.Write("\nEnter your username: ");
@@ -43,6 +43,7 @@ namespace GroupChat
 			}
 		}
 
+
 		public void ShowJoinedGroups(Dictionary<string, List<string>> groups)
 		{
 			Console.Write("\nEnter your username: ");
@@ -65,6 +66,7 @@ namespace GroupChat
 			}
 		}
 
+
 		public void CreateGroup(Dictionary<string, List<string>> groups)
 		{
 			Console.Write("\nEnter your username: ");
@@ -82,6 +84,23 @@ namespace GroupChat
 				Console.WriteLine($"Group {groupName} created successfully.");
 			}
 		}
+
+
+		public void ViewGroups(Dictionary<string, List<string>> groups)
+		{
+			Console.WriteLine("\nGroups available:");
+
+			if (groups.Count > 0)
+			{
+				foreach (var group in groups)
+				{
+					Console.WriteLine("- " + group.Key);
+				}
+			}
+			else
+			{
+				Console.WriteLine("No groups available.");
+			}
+		}
 	}
 }
-

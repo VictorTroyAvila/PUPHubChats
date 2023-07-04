@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace GroupChat
@@ -19,7 +18,8 @@ namespace GroupChat
 				Console.WriteLine("2. Show Members in Group");
 				Console.WriteLine("3. Show Groups Joined");
 				Console.WriteLine("4. Create Group");
-				Console.WriteLine("5. Exit");
+				Console.WriteLine("5. View Groups");
+				Console.WriteLine("6. Exit");
 				Console.Write("\nEnter your choice: ");
 				int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -38,6 +38,9 @@ namespace GroupChat
 						rules.CreateGroup(groups);
 						break;
 					case 5:
+						rules.ViewGroups(groups);
+						break;
+					case 6:
 						Console.WriteLine("Exiting the program...");
 						return;
 					default:
