@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-MainC",
+      "appliesTo": "Features_3/Enable_And_Disable/MainC.cs",
+      "type": "launch"
+    }
+  ]
+}
