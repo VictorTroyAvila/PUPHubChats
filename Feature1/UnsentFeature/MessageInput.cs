@@ -1,8 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Class1
+namespace Feature1
 {
-	public Class1()
-	{
-	}
+    class MessageInput
+    {
+        public string ChatMessage { get; }
+        public string UserInput { get; }
+
+        public MessageInput(string chatMessage, string userInput)
+        {
+            ChatMessage = chatMessage;
+            UserInput = userInput;
+        }
+    }
 }
