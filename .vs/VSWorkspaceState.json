@@ -1,16 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GroupChat",
-    "\\GroupChatData",
-    "\\GroupChatData\\bin",
-    "\\GroupChatData\\bin\\Release",
-    "\\GroupChatData\\obj",
-    "\\GroupChatData\\obj\\Debug",
-    "\\GroupChatData\\obj\\Debug\\net6.0",
-    "\\GroupChatData\\obj\\Release",
-    "\\GroupChatData\\obj\\Release\\net6.0"
+    "\\GroupChat"
   ],
-  "SelectedNode": "\\GroupChatData",
+  "SelectedNode": "\\GroupChat\\GroupChatRules.cs",
   "PreviewInSolutionExplorer": false
 }
