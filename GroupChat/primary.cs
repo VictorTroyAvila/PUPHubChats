@@ -2,12 +2,12 @@
 
 namespace GroupChat
 {
-	public class Primary
-	{
-		static void Main(string[] args)
-		{
-			GroupChatData groupChatData = new GroupChatData();
-			groupChatData.Run();
-		}
-	}
+    public class Primary
+    {
+        static void Main(string[] args)
+        {
+            GroupChatModel model = new GroupChatModel();
+            model.AskUserRole();
+        }
+    }
 }
