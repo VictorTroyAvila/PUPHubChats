@@ -1,4 +1,6 @@
-﻿class MessageData
+﻿using System;
+class MessageData
+
 {
     public string Sender { get; } = "pastorjemen@gmail.com";
     public string Recipient { get; } = "jcremolacio@gmail.com";
