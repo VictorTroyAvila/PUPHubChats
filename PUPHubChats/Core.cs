@@ -1,10 +1,26 @@
-﻿using PUPHubChats;
+﻿using PUPHubChatsRules;
 using PUPHubChatsData;
-using static PUPHubChatData.ChatDataLayer;
+using static PUPHubChatsData.ChatsDataLayer;
 
 public class Core
 {
-     static void Main(String[] args)
+    public static void UserPrompt(char choice)
+    {
+        Console.WriteLine("You; ");
+        ChatSystem cs = new ChatSystem(choice);
+
+    }
+
+    public static void ChatPrompt(int cs)
+    {
+        Console.WriteLine(InMemoryData.prof[cs] + ":");
+
+    }
+    public static String Spacer()
+    {
+        return "";
+    }
+    static void Main(String[] args)
     {
         char choice;
 
@@ -13,6 +29,7 @@ public class Core
         Console.WriteLine("[1] Chat with Prof");
         Console.WriteLine("[2] Access Database");
         Console.WriteLine("[X] Leave ChatRoom");
+        //Model Choice
         choice = Console.ReadLine()[0];
 
         switch (choice)
@@ -25,8 +42,7 @@ public class Core
                 Console.WriteLine("[5]Ms. Quinsayas");
                 choice = Console.ReadLine()[0];
 
-                
-                ChatSystem cs = new ChatSystem(choice);
+                Core.UserPrompt(choice);
 
                 break;
 
@@ -39,17 +55,5 @@ public class Core
                 break;
 
         }
-    }
-     internal static void UserPrompt(char choice)
-    {
-        Console.WriteLine("You; ");
-        ChatSystem cs = new ChatSystem(choice);
-
-    }
-
-    internal static void ChatPrompt(int cs)
-    {
-        Console.WriteLine(InMemoryData.prof[cs] + ":");
-
     }
 }

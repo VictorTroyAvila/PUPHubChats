@@ -1,8 +1,9 @@
 ﻿using PUPHubChatsModels;
+using System.Reflection.Metadata.Ecma335;
 
-namespace PUPHubChatData
+namespace PUPHubChatsData
 {
-    public class ChatDataLayer
+    public class ChatsDataLayer
     {
         private List<Students> Students { get; set; }
         public class InMemoryData
@@ -21,6 +22,6 @@ namespace PUPHubChatData
         {
             return Students;
         }
-               
+     
     }
 }

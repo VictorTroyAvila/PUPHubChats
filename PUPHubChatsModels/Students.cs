@@ -10,5 +10,6 @@ namespace PUPHubChatsModels
     {
         public String Lastname { get; set; }
         public String Firstname { get; set; }
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿using PUPHubChatData;
+﻿using PUPHubChatsData;
 using PUPHubChatsModels;
 using System;
 using System.Collections.Generic;

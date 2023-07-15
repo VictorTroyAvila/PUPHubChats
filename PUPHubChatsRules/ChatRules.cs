@@ -1,9 +1,6 @@
-﻿using PUPHubChats;
-using PUPHubChatsModels;
-using System.Runtime.CompilerServices;
-using static PUPHubChatData.ChatDataLayer;
+﻿using static PUPHubChatsData.ChatsDataLayer;
 
-namespace PUPHubChats
+namespace PUPHubChatsRules
 {
     public class ChatSystem
     {
@@ -11,14 +8,12 @@ namespace PUPHubChats
         {
             String chat1;
             String chat2;
-            int i = choice - '1';
-            ChatSystem.SelectedChoice(choice);
-
+            
             do
             {
-                //UserPrmpt
-                Console.WriteLine("You:");
                 chat1 = Console.ReadLine();
+                //Spacing
+                
                 Console.WriteLine();
                 if (chat1 == "Chat Close")
                 {
@@ -26,7 +21,7 @@ namespace PUPHubChats
                 }
 
                 //ChatPrompt
-                Console.WriteLine(InMemoryData.prof[i] + ":");
+                Console.WriteLine(InMemoryData.prof[ChatSystem.SelectedChoice(choice)] + ":");
                 chat2 = Console.ReadLine();
                 Console.WriteLine();
                 if (chat2 == "Chat Close")
