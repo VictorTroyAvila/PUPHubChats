@@ -20,3 +20,11 @@ C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChat
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChatsData.pdb
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChatsModels.pdb
 C:\Users\Bentor\source\repos\PUPHubChats\PUPHubChats\bin\Debug\net6.0\PUPHubChatsRules.pdb
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.csproj.AssemblyReference.cache
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.AssemblyInfoInputs.cache
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.AssemblyInfo.cs
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.csproj.CoreCompileInputs.cache
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.dll
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\refint\PUPHubChats.dll
+C:\Users\Cyber\OneDrive\Documents\PUPHubChats\PUPHubChats\obj\Debug\net6.0\PUPHubChats.pdb

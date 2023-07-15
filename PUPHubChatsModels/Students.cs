@@ -8,6 +8,7 @@ namespace PUPHubChatsModels
 {
     public class Students
     {
-        public String Stud { get; set; }
+        public String Lastname { get; set; }
+        public String Firstname { get; set; }
     }
 }

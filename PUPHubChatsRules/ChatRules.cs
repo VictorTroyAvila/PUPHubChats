@@ -12,9 +12,11 @@ namespace PUPHubChats
             String chat1;
             String chat2;
             int i = choice - '1';
-                        
+            ChatSystem.SelectedChoice(choice);
+
             do
             {
+                //UserPrmpt
                 Console.WriteLine("You:");
                 chat1 = Console.ReadLine();
                 Console.WriteLine();
@@ -23,6 +25,7 @@ namespace PUPHubChats
                     break;
                 }
 
+                //ChatPrompt
                 Console.WriteLine(InMemoryData.prof[i] + ":");
                 chat2 = Console.ReadLine();
                 Console.WriteLine();
@@ -33,5 +36,12 @@ namespace PUPHubChats
             }
             while (chat1 != "Chat Close");
         }
+
+        internal static int SelectedChoice(char choice)
+        {
+            int cs = choice - '1';
+            return cs;
+        }
     }
+        
 }

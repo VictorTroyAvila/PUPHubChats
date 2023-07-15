@@ -1,5 +1,6 @@
 ﻿using PUPHubChats;
 using PUPHubChatsData;
+using static PUPHubChatData.ChatDataLayer;
 
 public class Core
 {
@@ -24,12 +25,13 @@ public class Core
                 Console.WriteLine("[5]Ms. Quinsayas");
                 choice = Console.ReadLine()[0];
 
+                
                 ChatSystem cs = new ChatSystem(choice);
 
                 break;
-                DBase db = new DBase();
+
              case '2':
-                
+                SQLData db = new SQLData();
                 break;
 
             default:
@@ -37,5 +39,17 @@ public class Core
                 break;
 
         }
+    }
+     internal static void UserPrompt(char choice)
+    {
+        Console.WriteLine("You; ");
+        ChatSystem cs = new ChatSystem(choice);
+
+    }
+
+    internal static void ChatPrompt(int cs)
+    {
+        Console.WriteLine(InMemoryData.prof[cs] + ":");
+
     }
 }
