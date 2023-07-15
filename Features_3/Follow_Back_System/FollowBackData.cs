@@ -1,78 +1,30 @@
 ﻿public class FollowBackData
 {
-    private Dictionary<string, List<string>> followers = new Dictionary<string, List<string>>();
+    private List<string> followers = new List<string>();
+    private List<string> following = new List<string>();
 
-    public void FollowUser()
+    public void FollowUser(string username)
     {
-        Console.Write("\nEnter your username: ");
-        string username = Console.ReadLine();
-        if (string.IsNullOrEmpty(username))
-        {
-            Console.WriteLine("Invalid username. Please enter a valid username.");
-            return;
-        }
-
-        Console.Write("Enter the username of the user you want to follow: ");
-        string followUsername = Console.ReadLine();
-        if (string.IsNullOrEmpty(followUsername))
-        {
-            Console.WriteLine("Invalid username. Please enter a valid username.");
-            return;
-        }
-
-        if (followers.ContainsKey(followUsername))
-        {
-            followers[followUsername].Add(username);
-        }
-        else
-        {
-            followers[followUsername] = new List<string> { username };
-        }
-
-        Console.WriteLine($"You are now following {followUsername}.");
+        following.Add(username);
+        Console.WriteLine("You are now following " + username);
     }
 
     public void ShowFollowers()
     {
-        Console.Write("\nEnter your username: ");
-        string username = Console.ReadLine();
-        if (string.IsNullOrEmpty(username))
+        Console.WriteLine("Followers:");
+        foreach (var follower in followers)
         {
-            Console.WriteLine("Invalid username. Please enter a valid username.");
-            return;
-        }
-
-        if (followers.ContainsKey(username))
-        {
-            Console.WriteLine($"\nFollowers of {username}:");
-            foreach (var follower in followers[username])
-            {
-                Console.WriteLine(follower);
-            }
-        }
-        else
-        {
-            Console.WriteLine("You don't have any followers.");
+            Console.WriteLine(follower);
         }
     }
 
     public void ShowFollowing()
     {
-        Console.Write("\nEnter your username: ");
-        string username = Console.ReadLine();
-        if (string.IsNullOrEmpty(username))
+        Console.WriteLine("Following:");
+        foreach (var user in following)
         {
-            Console.WriteLine("Invalid username. Please enter a valid username.");
-            return;
-        }
-
-        Console.WriteLine($"\nUsers followed by {username}:");
-        foreach (var user in followers.Keys)
-        {
-            if (followers[user].Contains(username))
-            {
-                Console.WriteLine(user);
-            }
+            Console.WriteLine(user);
         }
     }
+}
 }
