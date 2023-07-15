@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace PUPHubChatsData
 {
-    public class Class1
+    public class DBase
     {
         static string connectionString
-            = "Data Source =localhost; Initial Catalog = PUPHubPoints; Integrated Security = True;";
+            = "Data Source =localhost; Initial Catalog = DummyData; Integrated Security = True;";
         static SqlConnection sqlConnection;
     }
 }

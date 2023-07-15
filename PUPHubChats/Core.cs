@@ -1,4 +1,6 @@
 ﻿using PUPHubChats;
+using PUPHubChatsData;
+
 public class Core
 {
      static void Main(String[] args)
@@ -8,7 +10,7 @@ public class Core
         Console.WriteLine("Welcome to the PUPHUB's ChatRoom");
         Console.WriteLine("How may I help you today");
         Console.WriteLine("[1] Chat with Prof");
-        Console.WriteLine("[2] Search Student");
+        Console.WriteLine("[2] Access Database");
         Console.WriteLine("[X] Leave ChatRoom");
         choice = Console.ReadLine()[0];
 
@@ -22,11 +24,12 @@ public class Core
                 Console.WriteLine("[5]Ms. Quinsayas");
                 choice = Console.ReadLine()[0];
 
-                ChatSystem ct = new ChatSystem(choice);
+                ChatSystem cs = new ChatSystem(choice);
 
                 break;
-
-            case '2':
+                DBase db = new DBase();
+             case '2':
+                
                 break;
 
             default:

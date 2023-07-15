@@ -486,19 +486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bentor\\.nuget\\packages\\": {}
+    "C:\\Users\\Cyber\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj",
+      "projectUniqueName": "C:\\Users\\Cyber\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj",
       "projectName": "PUPHubChatsData",
-      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj",
-      "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\obj\\",
+      "projectPath": "C:\\Users\\Cyber\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj",
+      "packagesPath": "C:\\Users\\Cyber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cyber\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cyber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -512,8 +512,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
+            "C:\\Users\\Cyber\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
+              "projectPath": "C:\\Users\\Cyber\\OneDrive\\Documents\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
             }
           }
         }
@@ -549,7 +549,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
