@@ -6,8 +6,8 @@ namespace GroupChat
     {
         static void Main(string[] args)
         {
-            GroupChatModel model = new GroupChatModel();
-            model.AskUserRole();
+            GroupChatData groupChatData = new GroupChatData();
+            groupChatData.Run();
         }
     }
 }

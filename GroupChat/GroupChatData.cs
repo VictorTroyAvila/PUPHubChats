@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace GroupChat
 {
-
     public class GroupChatData
     {
         private Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
         private GroupChatRules rules = new GroupChatRules();
 
-        public void Run(string role)
+        public void Run()
         {
-            Console.WriteLine("Welcome to our Group Chat System!");
+            Console.WriteLine("------ GROUP CHAT --------");
+          
 
             while (true)
             {
@@ -36,10 +36,7 @@ namespace GroupChat
                         rules.ShowJoinedGroups(groups);
                         break;
                     case 4:
-                        if (role == "professor")
-                            rules.CreateGroup(groups);
-                        else
-                            Console.WriteLine("Sorry, students are not allowed to create groups.");
+                        rules.CreateGroup(groups);
                         break;
                     case 5:
                         rules.ViewGroups(groups);
