@@ -1,4 +1,7 @@
-﻿public class FollowBackModel
+﻿using System;
+using System.Collections.Generic;
+
+public class FollowBackModel
 {
     private FollowBackRules rules = new FollowBackRules();
 
@@ -23,7 +26,9 @@
             switch (choice)
             {
                 case 1:
-                    rules.FollowUser();
+                    Console.Write("Enter the username to follow: ");
+                    string username = Console.ReadLine();
+                    rules.FollowUser(username);
                     break;
                 case 2:
                     rules.ShowFollowers();
@@ -40,5 +45,4 @@
             }
         }
     }
-}
 }

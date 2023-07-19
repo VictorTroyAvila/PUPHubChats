@@ -1,4 +1,7 @@
-﻿public class FollowBackData
+﻿using System;
+using System.Collections.Generic;
+
+public class FollowBackData
 {
     private List<string> followers = new List<string>();
     private List<string> following = new List<string>();
@@ -26,5 +29,4 @@
             Console.WriteLine(user);
         }
     }
-}
 }

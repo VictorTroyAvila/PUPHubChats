@@ -1,5 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 
+class EnableDisableData
+{
+    public void SendMessage(string message)
+    {
+        Console.WriteLine("Sending message: " + message);
+    }
+}
 class ChatSession
 {
     private bool chatEnabled = true;
@@ -8,9 +16,9 @@ class ChatSession
     {
         Console.WriteLine("Welcome to the chat!");
 
-        ChatModels user= new ChatModels();
-        ChatData chatData = new ChatData();
-        ChatRules chatRules = new ChatRules();
+        EnableDisableModel user = new EnableDisableModel();
+        EnableDisableData chatData = new EnableDisableData();
+        EnableDisableRules chatRules = new EnableDisableRules();
 
         while (true)
         {

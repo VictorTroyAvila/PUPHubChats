@@ -1,4 +1,6 @@
-﻿class ChatRules
+﻿using System;
+using System.Collections.Generic;
+class EnableDisableRules
 {
     public bool ShouldDisableChat(string message)
     {

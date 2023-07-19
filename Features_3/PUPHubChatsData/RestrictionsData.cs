@@ -1,12 +1,22 @@
-﻿class ChatController
-{
-    private ChatData chatData;
-    private ChatRules chatRules;
+﻿using System;
+using System.Collections.Generic;
 
-    public ChatController(bool isProfessor)
+class RestrictionsData
+{
+    public void SendMessage(string message)
     {
-        chatData = new ChatData();
-        chatRules = new ChatRules(isProfessor);
+        Console.WriteLine("Message sent: " + message);
+    }
+}
+class ChatController
+{
+    private RestrictionsData chatData;
+    private RestrictionRules chatRules;
+
+    public ChatController(string userType)
+    {
+        chatData = new RestrictionsData();
+        chatRules = new RestrictionRules(userType);
     }
 
     public void StartChat()

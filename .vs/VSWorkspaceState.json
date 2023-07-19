@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Features_3",
-    "\\Features_3\\Enable_And_Disable",
-    "\\Features_3\\Follow_Back_System",
-    "\\Features_3\\Restrictions"
+    "\\Features_3\\PUPHubChatRules",
+    "\\Features_3\\PUPHubChatsModels"
   ],
-  "SelectedNode": "\\Features_3\\Follow_Back_System\\FollowBackMain.cs",
+  "SelectedNode": "\\PUPHubChats.sln",
   "PreviewInSolutionExplorer": false
 }

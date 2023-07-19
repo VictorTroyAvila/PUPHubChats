@@ -1,4 +1,7 @@
-﻿class MainC
+﻿using System;
+using System.Collections.Generic;
+
+class EnableDisableUI
 {
     static void Main(string[] args)
     {

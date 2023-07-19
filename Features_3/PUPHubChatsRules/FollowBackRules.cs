@@ -1,10 +1,13 @@
-﻿public class FollowBackRules
+﻿using System;
+using System.Collections.Generic;
+
+public class FollowBackRules
 {
     private FollowBackData data = new FollowBackData();
 
-    public void FollowUser()
+    public void FollowUser(string username)
     {
-        data.FollowUser();
+        data.FollowUser(username);
     }
 
     public void ShowFollowers()
@@ -16,4 +19,5 @@
     {
         data.ShowFollowing();
     }
+}
 }
