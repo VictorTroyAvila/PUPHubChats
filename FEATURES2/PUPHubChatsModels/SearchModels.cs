@@ -1,4 +1,5 @@
 ﻿using System;
+
 using System.Collections.Generic;
 
 public class Program
@@ -15,7 +16,6 @@ public class Program
             "regina lopez",
         };
 
-        // User input
         Console.Write("Enter Name: ");
         string searchKeyword = Console.ReadLine();
 
@@ -33,5 +33,20 @@ public class Program
         {
             Console.WriteLine("No results found.");
         }
+    }
+
+    public static List<string> PerformSearch(List<string> sourceList, string searchKeyword)
+    {
+        List<string> searchResults = new List<string>();
+
+        foreach (string item in sourceList)
+        {
+            if (item.Contains(searchKeyword, StringComparison.OrdinalIgnoreCase))
+            {
+                searchResults.Add(item);
+            }
+        }
+
+        return searchResults;
     }
 }
