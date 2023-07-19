@@ -6,12 +6,11 @@ namespace GroupChat
     public class GroupChatData
     {
         private Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
-        private GroupChatRules rules = new GroupChatRules();
+        private GroupChatUI rules = new GroupChatUI();
 
         public void Run()
         {
-            Console.WriteLine("------ GROUP CHAT --------");
-          
+            Console.WriteLine("----- GROUP CHAT -----");
 
             while (true)
             {
