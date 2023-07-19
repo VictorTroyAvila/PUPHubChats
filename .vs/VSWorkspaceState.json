@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Block\\Mute\\ArchiveFeature",
+    "\\Feature1",
+    "\\Feature1\\ReactionFeature",
+    "\\Feature1\\StatusFeature",
+    "\\Feature1\\UnsentFeature"
+  ],
+  "SelectedNode": "\\Block",
+  "PreviewInSolutionExplorer": false
+}
