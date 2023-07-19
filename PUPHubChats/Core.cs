@@ -10,17 +10,8 @@ public class Core
     static void Main(String[] args)
     {
         String Message, choice,  MessageData;
-
-
         List<string> MessageHistory = new List<string>();
-<<<<<<< Updated upstream
         MessageRules messageRules = new MessageRules();
-=======
-        
-        DateTime currentDateTime = DateTime.Now;
-        
-        //Data
->>>>>>> Stashed changes
         SQLData sQLData = new SQLData();
         
         Console.WriteLine("Press anything to continue");
@@ -41,16 +32,6 @@ public class Core
 
                 Console.WriteLine("Select Recipients");
                 var search = Console.ReadLine().ToUpper();
-<<<<<<< Updated upstream
-=======
-                
-                //Data
-                if (Core.DoesExist(search))
-                {
-                    // Dito papasok yung SearchEngine
-                    // connect sa database hahanapin yung pangalan
-                    // Follow and unfollow feature kung papayagan ichat
->>>>>>> Stashed changes
 
                 //Rules
                 
@@ -78,6 +59,7 @@ public class Core
                 {
                     Console.WriteLine(MessageHistory[i]);
                 }
+                //sQLData.showData();
                 goto SelectAction;
 
             case "3":

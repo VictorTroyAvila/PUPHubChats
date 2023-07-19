@@ -41,7 +41,7 @@ namespace PUPHubChatsData
                 return students;
             }
 
-            public List<Message> saveData()
+            public List<Message> showData()
             {
                 var students = new List<Message>();
                 return students;
