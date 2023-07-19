@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PUPHubChatsModels
 {
-    public enum Inputs
+    public class Message
     {
-        choice,
-        searchUnit,
-        Message
+        public string name { get; set; }
+        public string date { get; set; }
+        public string message { get; set; }
     }
 }
