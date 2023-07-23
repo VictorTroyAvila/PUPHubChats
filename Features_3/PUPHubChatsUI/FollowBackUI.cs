@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class FollowBackModel
+nnamespace FollowBackSystem
+{
+    public class FollowBackUI
 {
     private FollowBackRules rules = new FollowBackRules();
 
@@ -31,10 +33,20 @@ public class FollowBackModel
                     rules.FollowUser(username);
                     break;
                 case 2:
-                    rules.ShowFollowers();
+                    List<string> followers = rules.GetFollowers();
+                    Console.WriteLine("Followers:");
+                    foreach (var follower in followers)
+                    {
+                        Console.WriteLine(follower);
+                    }
                     break;
                 case 3:
-                    rules.ShowFollowing();
+                    List<string> following = rules.GetFollowing();
+                    Console.WriteLine("Following:");
+                    foreach (var user in following)
+                    {
+                        Console.WriteLine(user);
+                    }
                     break;
                 case 4:
                     Console.WriteLine("Exiting the program...");
@@ -44,5 +56,11 @@ public class FollowBackModel
                     break;
             }
         }
+    }
+
+    public static void Main(string[] args)
+    {
+        FollowBackUI followBackUI = new FollowBackUI();
+        followBackUI.Run();
     }
 }

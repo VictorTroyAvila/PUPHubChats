@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-public class FollowBackData
+﻿public class FollowBackData
 {
     private List<string> followers = new List<string>();
     private List<string> following = new List<string>();
@@ -9,24 +6,16 @@ public class FollowBackData
     public void FollowUser(string username)
     {
         following.Add(username);
-        Console.WriteLine("You are now following " + username);
     }
 
-    public void ShowFollowers()
+    public List<string> GetFollowers()
     {
-        Console.WriteLine("Followers:");
-        foreach (var follower in followers)
-        {
-            Console.WriteLine(follower);
-        }
+        return followers;
     }
 
-    public void ShowFollowing()
+    public List<string> GetFollowing()
     {
-        Console.WriteLine("Following:");
-        foreach (var user in following)
-        {
-            Console.WriteLine(user);
-        }
+        return following;
     }
+}
 }

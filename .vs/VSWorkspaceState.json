@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Features_3",
-    "\\Features_3\\PUPHubChatRules",
-    "\\Features_3\\PUPHubChatsModels"
+    "\\Features_3\\PUPHubChatsData",
+    "\\Features_3\\PUPHubChatsModels",
+    "\\Features_3\\PUPHubChatsRules",
+    "\\Features_3\\PUPHubChatsUI"
   ],
-  "SelectedNode": "\\PUPHubChats.sln",
+  "SelectedNode": "\\Features_3\\PUPHubChatsUI\\FollowBackUIcs",
   "PreviewInSolutionExplorer": false
 }
