@@ -1,61 +1,29 @@
 ﻿using System;
+using System.IO;
+using System.Collections.Generic;
 
-public class ChatArchiver
+class ChatData
 {
-    private readonly string fileName;
+    private List<Message> messages = new List<Message>();
 
-    public ChatArchiver(string personName)
+    public void AddMessage(Message message)
     {
-        fileName = $"{personName}_chat";
+        messages.Add(message);
     }
 
-    public void ArchiveChat()
+    public List<Message> GetAllMessages()
     {
-        try
-        {
-            using (StreamWriter sw = new StreamWriter(fileName))
-            {
-                Console.WriteLine($"Chat with {fileName.Split('_')[0]} (Type 'exit' to stop archiving):\n");
-
-                while (true)
-                {
-                    string message = Console.ReadLine();
-
-                    if (message.ToLower() == "exit")
-                    {
-                        break;
-                    }
-
-                    sw.WriteLine($"{message}");
-                }
-            }
-
-            Console.WriteLine($"Chat with {fileName.Split('_')[0]} has been archived successfully in {fileName}.");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-        }
+        return messages;
     }
 
-    public void ViewArchivedChat()
+    public void SaveToFile(string fileName)
     {
-        try
+        using (StreamWriter sw = new StreamWriter(fileName))
         {
-            using (StreamReader sr = new StreamReader(fileName))
+            foreach (var message in messages)
             {
-                Console.WriteLine($"Archived Chat with {fileName.Split('_')[0]}:\n");
-
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    Console.WriteLine(line);
-                }
+                sw.WriteLine(message.Content);
             }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred while viewing the archived chat: {ex.Message}");
         }
     }
 }
