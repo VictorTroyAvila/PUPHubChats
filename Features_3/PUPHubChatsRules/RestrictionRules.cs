@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 class RestrictionRules
 {
-    private string[] restrictedWords = { "bobo", "tanga", "gago", "inutil", "pota", "potanginamo", "pakyu", "tuleg", "noob", "idiot", "tanginamo" };
+    private string[] restrictedWords = { "bobo", "tanga", "gago", "inutil", "pota", "potanginamo", "pakyu", "tuleg", "noob", "idiot", "tanginamo", "Fuck",
+        "Fucky you", "Shit", "Piss off", "Dick head", "Asshole", "Son of a bitch", "Bastard", "Bitch", "Damn", "Holy fuck", "Dumb", "Tarantado", "Yawa", "Punyeta", "Tae", "Pakshet", "BwSIT", "namo", };
     private string userType;
 
     public RestrictionRules(string userType)
@@ -13,8 +14,7 @@ class RestrictionRules
 
     public bool CheckRestrictedWords(string message)
     {
-        // Students have additional restrictions
-        if (userType == "student" && message.ToLower().Contains("exam"))
+        if (userType == "student" && message.ToLower().Contains("Bad Words"))
         {
             return true;
         }
