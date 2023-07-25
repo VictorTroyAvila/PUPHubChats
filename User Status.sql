@@ -1,0 +1,14 @@
+CREATE DATABASE USERSTATUS;
+
+CREATE TABLE UserStatuss(
+BlockMember VARCHAR (150) NOT NULL,
+MutedMember VARCHAR (150) NOT NULL,
+ArchivedMember VARCHAR (150) NOT NULL,
+ComposedNewMessage VARCHAR (150) NOT NULL,
+AttachFiles VARCHAR (150) NOT NULL,
+DeleteConvo VARCHAR (150) NOT NULL,
+RestrictedMember VARCHAR (150) NOT NULL,
+FollowersAndFollowings VARCHAR (150) NOT NULL
+)
+
+SELECT *FROM UserStatuss;

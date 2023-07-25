@@ -1,14 +1,10 @@
 CREATE DATABASE MESSAGESTATUS;
 
-CREATE TABLE MessageStatus(
-ViewStatus VARCHAR(150) NOT NULL,
+CREATE TABLE MessageStatuss(
 MessageReactions VARCHAR(150) NOT NULL,
 UnsendMessage VARCHAR(150) NOT NULL,
 SearchMessagesOrMembers VARCHAR(150) NOT NULL,
 GroupChat VARCHAR(150) NOT NULL
 )
 
-ALTER TABLE MessageStatus
-DROP COLUMN ViewStatus;
-
-SELECT * FROM MessageStatus;
+SELECT * FROM MessageStatuss;
