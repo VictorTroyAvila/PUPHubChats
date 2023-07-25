@@ -8,11 +8,7 @@ namespace PUPHubChatsData
 {
     public class DataService
     {
-
-        public static bool verifyStudent(string search)
-        {
-            bool result = false;
-            var Students = new List<string>()
+        static List<String> Students = new List<string>()
         {
             "VICTOR TROY AVILA",
             "MARIA YUKI VILLANUEVA",
@@ -21,7 +17,17 @@ namespace PUPHubChatsData
             "JOHN CHRISTOPHER REMOLACIO",
             "DHUKE MARQUEZ"
         };
-            foreach (var student in Students)
+
+        public static List<string> GetStudents()
+        {
+            return Students;
+        }
+
+        public static bool verifyStudent(string search, List<string> students)
+        {
+            bool result = false;
+            
+            foreach (var student in students)
             {
                 if (student == search)
                 {
@@ -38,6 +44,7 @@ namespace PUPHubChatsData
 
             return "Successfully Added";
         }
+        
     }
 
     

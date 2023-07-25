@@ -3,7 +3,6 @@ using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
 using PUPHubChatsData;
 using PUPHubChatsRules;
-using PUPHubChatsModels;
 
 public class Core
 {
@@ -12,7 +11,6 @@ public class Core
         String Message, choice,  MessageData;
         List<string> MessageHistory = new List<string>();
         MessageRules messageRules = new MessageRules();
-        SQLData sQLData = new SQLData();
         
         Console.WriteLine("Press anything to continue");
         Console.ReadLine();

@@ -18,7 +18,7 @@ namespace PUPHubChatsRules
         }
         public bool DoesExist(string search)
         {
-            var result = DataService.verifyStudent(search);
+            var result = DataService.verifyStudent(search, DataService.GetStudents());
                 return result;
         }
     }
