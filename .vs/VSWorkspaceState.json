@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PUPHubChatData",
+    "\\PUPHubChats",
+    "\\PUPHubChatsModels",
+    "\\PUPHubChatsModels\\bin",
+    "\\PUPHubChatsModels\\obj",
+    "\\PUPHubChatsModels\\obj\\Debug",
+    "\\PUPHubChatsModels\\obj\\Debug\\net6.0",
+    "\\PUPHubChatsModels\\obj\\Release"
+  ],
+  "SelectedNode": "\\PUPHubChatData\\DataService.cs",
+  "PreviewInSolutionExplorer": false
+}
