@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PUPHubChatsModels\PUPHubChatsModels.csproj" />
+    <ProjectReference Include="..\PUPHubChatsModels\Models.csproj" />
   </ItemGroup>
 
 </Project>
