@@ -147,42 +147,42 @@
           }
         }
       },
-      "PUPHubChatsData/1.0.0": {
+      "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "PUPHubChatsModels": "1.0.0",
+          "Models": "1.0.0",
           "System.Data.SqlClient": "4.8.5"
         },
         "compile": {
-          "bin/placeholder/PUPHubChatsData.dll": {}
+          "bin/placeholder/Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PUPHubChatsData.dll": {}
+          "bin/placeholder/Data.dll": {}
         }
       },
-      "PUPHubChatsModels/1.0.0": {
+      "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/PUPHubChatsModels.dll": {}
+          "bin/placeholder/Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PUPHubChatsModels.dll": {}
+          "bin/placeholder/Models.dll": {}
         }
       },
-      "PUPHubChatsRules/1.0.0": {
+      "Rules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "PUPHubChatsData": "1.0.0",
-          "PUPHubChatsModels": "1.0.0"
+          "Data": "1.0.0",
+          "Models": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/PUPHubChatsRules.dll": {}
+          "bin/placeholder/Rules.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PUPHubChatsRules.dll": {}
+          "bin/placeholder/Rules.dll": {}
         }
       }
     }
@@ -501,27 +501,27 @@
         "version.txt"
       ]
     },
-    "PUPHubChatsData/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
-      "path": "../PUPHubChatData/PUPHubChatsData.csproj",
-      "msbuildProject": "../PUPHubChatData/PUPHubChatsData.csproj"
+      "path": "../PUPHubChatData/Data.csproj",
+      "msbuildProject": "../PUPHubChatData/Data.csproj"
     },
-    "PUPHubChatsModels/1.0.0": {
+    "Models/1.0.0": {
       "type": "project",
-      "path": "../PUPHubChatsModels/PUPHubChatsModels.csproj",
-      "msbuildProject": "../PUPHubChatsModels/PUPHubChatsModels.csproj"
+      "path": "../PUPHubChatsModels/Models.csproj",
+      "msbuildProject": "../PUPHubChatsModels/Models.csproj"
     },
-    "PUPHubChatsRules/1.0.0": {
+    "Rules/1.0.0": {
       "type": "project",
-      "path": "../PUPHubChatsRules/PUPHubChatsRules.csproj",
-      "msbuildProject": "../PUPHubChatsRules/PUPHubChatsRules.csproj"
+      "path": "../PUPHubChatsRules/Rules.csproj",
+      "msbuildProject": "../PUPHubChatsRules/Rules.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "PUPHubChatsData >= 1.0.0",
-      "PUPHubChatsModels >= 1.0.0",
-      "PUPHubChatsRules >= 1.0.0"
+      "Data >= 1.0.0",
+      "Models >= 1.0.0",
+      "Rules >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -530,9 +530,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\PUPHubChatsUI.csproj",
-      "projectName": "PUPHubChatsUI",
-      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\PUPHubChatsUI.csproj",
+      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\UI.csproj",
+      "projectName": "UI",
+      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\UI.csproj",
       "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChats\\obj\\",
       "projectStyle": "PackageReference",
@@ -551,14 +551,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\PUPHubChatsData.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\Data.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\Data.csproj"
             },
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\PUPHubChatsModels.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj"
             },
-            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj": {
-              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj"
             }
           }
         }

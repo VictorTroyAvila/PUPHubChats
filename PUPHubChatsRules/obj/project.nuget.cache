@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OlPFy2F/iKzgq/GIQYXNY7e0iwPjIgdzseGIX1wU1FYredthwu881dhzQQH8AGtLWcWjDPYvkm/gLKs5iEgYIA==",
+  "dgSpecHash": "gVql46ioCd/ij7345yirMYD0bVlvLT6tqwcryO5brxdAel56QOAPuty/1EPXrqWMVjuzHPh6O8MotvBOIRU/Mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\PUPHubChatsRules.csproj",
+  "projectFilePath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bentor\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Bentor\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj",
-      "projectName": "Models",
-      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\UI Features 1\\UI Features 1.csproj",
+      "projectName": "UI Features 1",
+      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\UI Features 1\\UI Features 1.csproj",
       "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\obj\\",
+      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\UI Features 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
