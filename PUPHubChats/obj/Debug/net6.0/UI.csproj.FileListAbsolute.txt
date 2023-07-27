@@ -1,0 +1,5 @@
+C:\Users\vgmiy\OneDrive\Documents\GitHub\PUPHubChats\PUPHubChats\obj\Debug\net6.0\UI.csproj.AssemblyReference.cache
+C:\Users\vgmiy\OneDrive\Documents\GitHub\PUPHubChats\PUPHubChats\obj\Debug\net6.0\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgmiy\OneDrive\Documents\GitHub\PUPHubChats\PUPHubChats\obj\Debug\net6.0\UI.AssemblyInfoInputs.cache
+C:\Users\vgmiy\OneDrive\Documents\GitHub\PUPHubChats\PUPHubChats\obj\Debug\net6.0\UI.AssemblyInfo.cs
+C:\Users\vgmiy\OneDrive\Documents\GitHub\PUPHubChats\PUPHubChats\obj\Debug\net6.0\UI.csproj.CoreCompileInputs.cache
