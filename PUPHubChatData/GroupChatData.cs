@@ -1,8 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Class1
-{
-	public Class1()
-	{
-	}
-}
+    public class GroupChatData
+    {
+        public Dictionary<string, List<string>> Groups { get; set; }
+
+        public GroupChatData()
+        {
+            Groups = new Dictionary<string, List<string>>();
+        }
+    }
+

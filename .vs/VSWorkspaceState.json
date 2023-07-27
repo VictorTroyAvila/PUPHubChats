@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\PUPHubChatData",
+    "\\PUPHubChatData\\bin",
     "\\PUPHubChats",
+    "\\PUPHubChatsModels",
     "\\PUPHubChatsRules"
   ],
+  "SelectedNode": "\\PUPHubChats\\GroupChatUI.cs",
   "PreviewInSolutionExplorer": false
 }
