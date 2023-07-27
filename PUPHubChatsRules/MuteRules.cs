@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Rules
+class MuteRules
 {
     public static void MuteMember(Model member)
     {
