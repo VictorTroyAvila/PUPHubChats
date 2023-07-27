@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Class1
+public class RestrictionsData
 {
-	public Class1()
-	{
-	}
+    public void SendMessage(string message)
+    {
+
+    }
 }

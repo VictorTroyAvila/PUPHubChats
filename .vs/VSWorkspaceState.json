@@ -5,11 +5,8 @@
     "\\PUPHubChats",
     "\\PUPHubChatsModels",
     "\\PUPHubChatsModels\\bin",
-    "\\PUPHubChatsModels\\obj",
-    "\\PUPHubChatsModels\\obj\\Debug",
-    "\\PUPHubChatsModels\\obj\\Debug\\net6.0",
-    "\\PUPHubChatsModels\\obj\\Release"
+    "\\PUPHubChatsRules"
   ],
-  "SelectedNode": "\\PUPHubChatData\\DataService.cs",
+  "SelectedNode": "\\PUPHubChatData",
   "PreviewInSolutionExplorer": false
 }

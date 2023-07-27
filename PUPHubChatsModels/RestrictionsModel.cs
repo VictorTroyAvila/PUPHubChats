@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Class1
+public class RestrictionsModel
 {
-	public Class1()
-	{
-	}
+    public string Restricted { get; set; }
+    public string Unrestricted { get; set; }
+    public string Restrict { get; set; }
 }
