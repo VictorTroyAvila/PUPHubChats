@@ -5,19 +5,18 @@ using PUPHubChatsRules;
 
 public class GroupChatUI
 {
-        static void Main(string[] args)
+        public static void GroupChat()
         {
             GroupChatRules rules = new GroupChatRules();
             Console.WriteLine("----- GROUP CHAT -----");
 
-            while (true)
-            {
+            
                 Console.WriteLine("\n1. Join Group");
                 Console.WriteLine("2. Show Members in Group");
                 Console.WriteLine("3. Show Groups Joined");
                 Console.WriteLine("4. Create Group");
                 Console.WriteLine("5. View Groups");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. Back");
                 Console.Write("\nEnter your choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -51,12 +50,11 @@ public class GroupChatUI
                         rules.ViewGroups();
                         break;
                     case 6:
-                        Console.WriteLine("Exiting the program...");
-                        return;
+                        Core.CoreUI();
+                        break;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
                         break;
-                }
             }
         }
     }

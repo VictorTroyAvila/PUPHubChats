@@ -58,7 +58,7 @@ public class FollowBackUI
         }
     }
 
-    public static void Main(string[] args)
+    public static void Follow()
     {
         FollowBackUI followBackUI = new FollowBackUI();
         followBackUI.Run();

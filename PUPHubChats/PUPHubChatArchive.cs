@@ -3,7 +3,7 @@
 
 public class PUPHubChatsArchive
 {
-    static void Main()
+    public static void Archive()
     {
         Console.WriteLine("Chat Archiving Program");
 

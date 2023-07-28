@@ -505,19 +505,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vgmiy\\.nuget\\packages\\": {}
+    "C:\\Users\\Bentor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj",
+      "projectUniqueName": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj",
       "projectName": "Rules",
-      "projectPath": "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj",
-      "packagesPath": "C:\\Users\\vgmiy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatsRules\\obj\\",
+      "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\Rules.csproj",
+      "packagesPath": "C:\\Users\\Bentor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vgmiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bentor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -531,11 +531,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatData\\Data.csproj": {
-              "projectPath": "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatData\\Data.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\Data.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatData\\Data.csproj"
             },
-            "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatsModels\\Models.csproj": {
-              "projectPath": "C:\\Users\\vgmiy\\OneDrive\\Documents\\GitHub\\PUPHubChats\\PUPHubChatsModels\\Models.csproj"
+            "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj": {
+              "projectPath": "C:\\Users\\Bentor\\source\\repos\\PUPHubChats\\PUPHubChatsModels\\Models.csproj"
             }
           }
         }
@@ -565,7 +565,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,7 +2,7 @@
 
 public class SearchUI
 {
-    public static void Main()
+    public static void Search()
     {
         SearchData dataStore = new SearchData();
         List<SearchModel> sourceList = dataStore.GetAllPeople();

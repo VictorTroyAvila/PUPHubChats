@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class PUPHubChatsReactionUI
+public class PUPHubChatsReaction
 {
-    static void Main()
+    public static void React()
     {
         ReactionApp reactionApp = new ReactionApp();
         reactionApp.Start();

@@ -6,7 +6,7 @@ using PUPHubChatsModel;
 
 public class PUPHubChatsBlock
 {
-    static void Main(string[] args)
+    public static void Block()
     {
         BlockData dataStorage = new BlockData();
 

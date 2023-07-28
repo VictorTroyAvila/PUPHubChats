@@ -4,7 +4,7 @@ using System.IO;
 
 public class PUPHubChatUnsend
 {
-    static void Main(string[] args)
+    public static void Unsend()
     {
         UnsendModel unsendModel = GetUserInput();
         UnsendRules unsendRules = new UnsendRules();

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class RestrictionUI
 {
-    static void Main(string[] args)
+    public static void Restrict()
     {
         RestrictionUI chatUI = new RestrictionUI();
         chatUI.StartChat();

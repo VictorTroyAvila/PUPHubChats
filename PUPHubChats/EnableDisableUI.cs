@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class EnableDisableUI
 {
-    static void Main(string[] args)
+    public static void EnD()
     {
         WriteLine("Welcome to the chat!");
 

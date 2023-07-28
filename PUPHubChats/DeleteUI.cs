@@ -1,7 +1,7 @@
 ﻿using System;
 public class DeleteUI
 {
-    public static void Main()
+    public static void DoDelete()
     {
         DeleteData data = new DeleteData();
         List<DeleteModel> messages = data.GetAllMessages();

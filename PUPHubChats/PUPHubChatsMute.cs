@@ -4,7 +4,7 @@ public class PUPHubChatsMute
 {
     private static object memberToMUte;
 
-    static void Main(string[] args)
+    public static void Mute()
     {
         MuteData data = new MuteData();
 
