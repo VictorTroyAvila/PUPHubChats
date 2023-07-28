@@ -1,4 +1,5 @@
-﻿using PUPHubChatsRules;
+﻿using Data;
+using PUPHubChatsRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace UI
         public static void Compose()
         {
             String Message, choice, MessageData;
-            List<string> MessageHistory = new List<string>();
+            
             MessageRules messageRules = new MessageRules();
 
             Console.WriteLine("Select Recipient");
@@ -23,12 +24,8 @@ namespace UI
                     Console.WriteLine("To: " + search);
                     Console.Write("Message: ");
                     Message = Console.ReadLine();
-
-                    MessageData = messageRules.FormulateMessageData(search, Message);
-
-                //Connection sa data base add to messagestatus
-                //vvv Substitution for database vvv
-                    MessageHistory.Add(MessageData);
+                    
+                    messageRules.FormulateMessageData(search, Message);
                     Core.CoreUI();
                 }
                 else

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data;
+using System;
 
 
 public class ArchiveRules
@@ -12,6 +13,7 @@ public class ArchiveRules
 
     public void ArchiveMessage(ArchiveModel message)
     {
-        chatData.AddMessage(message);
+        SQLDataMessageStatus sQLMStatus = new SQLDataMessageStatus();
+        sQLMStatus.EditArchiveMessage(message.ToString())
     }
 }

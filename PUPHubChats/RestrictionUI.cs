@@ -23,7 +23,7 @@ public class RestrictionUI
 
     public void StartChat()
     {
-        while (true)
+        do
         {
             Console.Write("Enter your message: ");
             string message = Console.ReadLine();
@@ -45,6 +45,10 @@ public class RestrictionUI
             {
                 break;
             }
+        }
+        while (true);
+        {
+            Core.CoreUI();
         }
     }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data;
+using System;
 
 public class PUPHubChatsReaction
 {
@@ -24,11 +25,9 @@ public class ReactionApp
     public void Start()
     {
         ReactionApp reactionApp = new ReactionApp();
+        SQLDataMessageStatus sqlMStatus = new SQLDataMessageStatus();
 
-        //Console.WriteLine("Select message to react to");
-        //Connect to database print out lahat ng message history
-        //selectedmsg = Console.ReadLine();
-        //Connect sa database retrieve selected msg
+        sqlMStatus.DisplayMessageStatus();
 
         Console.WriteLine("Select a reaction:");
         reactionApp.DisplayReactions();
@@ -38,8 +37,7 @@ public class ReactionApp
         if (int.TryParse(input, out int reactionNumber))
         {
             Enum ChosenReaction = reactionRules.GetReaction(reactionNumber);
-            Console.WriteLine("You reacted "+ChosenReaction+" to this message \n"//+selectedmsg
-            );
+            sqlMStatus.EditMessageReaction(ChosenReaction.ToString());
         }
         else
         {

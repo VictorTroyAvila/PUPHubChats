@@ -16,7 +16,7 @@ public class FollowBackUI
             Console.WriteLine("1. Follow");
             Console.WriteLine("2. Show Followers");
             Console.WriteLine("3. Show Following");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Back");
             Console.Write("\nEnter your choice: ");
             int choice;
             if (!int.TryParse(Console.ReadLine(), out choice))
@@ -49,7 +49,7 @@ public class FollowBackUI
                     }
                     break;
                 case 4:
-                    Console.WriteLine("Exiting the program...");
+                    Core.CoreUI();
                     return;
                 default:
                     Console.WriteLine("Invalid choice. Please try again.");

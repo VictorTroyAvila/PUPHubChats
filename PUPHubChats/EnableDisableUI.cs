@@ -96,6 +96,7 @@ class ChatSession
         }
 
         EnableDisableUI.WriteLine("Chat session ended.");
+        Core.CoreUI();
     }
 
     private void DisableChat()

@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
 public class PUPHubChatUnsend
 {
+    
     public static void Unsend()
     {
         UnsendModel unsendModel = GetUserInput();
@@ -25,11 +27,22 @@ public class PUPHubChatUnsend
 
     static UnsendModel GetUserInput()
     {
-        Console.WriteLine("Enter your chat message: ");
+        SQLDataMessageStatus sQLMStatus = new SQLDataMessageStatus();
+        Console.WriteLine("Enter Message ");
         string chatMessage = Console.ReadLine();
-
         Console.WriteLine("Do you want to unsend the message? (yes/no): ");
         string userInput = Console.ReadLine().ToLower();
+
+        if (userInput == "yes")
+        {
+            string usend = "Unsent";
+            sQLMStatus.EditUnsendMessage(usend);
+        }
+        else
+        {
+            string usend = "Sent";
+            sQLMStatus.EditUnsendMessage(usend);
+        }
 
         return new UnsendModel(chatMessage, userInput);
     }

@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
+using Data;
 using PUPHubChatsData;
 using PUPHubChatsRules;
 using UI;
@@ -9,6 +10,7 @@ public class Core
 {
     public static void CoreUI()
     {
+
         String choice;
 
         SelectAction:
@@ -21,6 +23,9 @@ public class Core
         Console.WriteLine("[6] Delete Message");
         Console.WriteLine("[7] Mute User");
         Console.WriteLine("[8] Block User");
+        Console.WriteLine("[9] Enable and Disable");
+        Console.WriteLine("[10] Follow System");
+        Console.WriteLine("[11] Restrictions");
         Console.WriteLine("[X] Exit");
         choice = Console.ReadLine();
 
@@ -49,6 +54,15 @@ public class Core
                 break;
             case "8":
                 PUPHubChatsBlock.Block();
+                break;
+            case "9":
+                EnableDisableUI.EnD();
+                break;
+            case "10":
+                FollowBackUI.Follow();
+                break;
+            case "11":
+                RestrictionUI.Restrict();
                 break;
             case "X":
             case "x":

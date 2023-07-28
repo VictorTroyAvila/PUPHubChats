@@ -1,4 +1,5 @@
-﻿using PUPHubChatsData;
+﻿using Data;
+using PUPHubChatsData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,12 @@ namespace PUPHubChatsRules
     {
         DateTime currentDateTime = DateTime.Now;
         SearchData searchData = new SearchData();
+        SQLDataMessageStatus sqlMStatus = new SQLDataMessageStatus();
         public string FormulateMessageData(string search, string Message)
         {
             string msgData;
             msgData = search + "\n" + currentDateTime + "\n" + Message + "\n";
+            sqlMStatus.EditMessageData(msgData);
             return msgData;
         }
         public string FormulateMessageData(string Message)
