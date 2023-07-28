@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\FEATURES2",
-    "\\FEATURES2\\DATA",
-    "\\FEATURES2\\MODELS",
-    "\\FEATURES2\\RULES"
+    "\\FEATURES2\\PUPHubChatsModels",
+    "\\FEATURES2\\PUPHubChatsRules",
+    "\\FEATURES2\\PUPHubChatsUI"
   ],
+  "SelectedNode": "\\FEATURES2\\PUPHubChatsUI\\Search.cs",
   "PreviewInSolutionExplorer": false
 }
