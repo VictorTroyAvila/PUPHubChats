@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\PUPHubChats",
+    "\\PUPHubChatsModels",
+    "\\PUPHubChatsRules"
   ],
-  "SelectedNode": "\\PUPHubChats.sln",
+  "SelectedNode": "\\PUPHubChatData",
   "PreviewInSolutionExplorer": false
 }
