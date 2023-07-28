@@ -15,7 +15,7 @@ namespace UI
             List<string> MessageHistory = new List<string>();
             MessageRules messageRules = new MessageRules();
 
-            Console.WriteLine("Select Recipients");
+            Console.WriteLine("Select Recipient");
                 var search = Console.ReadLine().ToUpper();
 
                 if (messageRules.DoesExist(search))
