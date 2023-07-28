@@ -3,14 +3,14 @@
 
 public class ArchiveRules
 {
-    private ChatData chatData;
+    private ArchiveData chatData;
 
-    public ArchiveRules(ChatData data)
+    public ArchiveRules(ArchiveData data)
     {
         chatData = data;
     }
 
-    public void ArchiveMessage(Message message)
+    public void ArchiveMessage(ArchiveModel message)
     {
         chatData.AddMessage(message);
     }

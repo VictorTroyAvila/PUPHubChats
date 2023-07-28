@@ -14,8 +14,8 @@ public class PUPHubChatsArchive
 
         try
         {
-            ChatData chatData = new ChatData();
-            ChatRules chatRules = new ChatRules(chatData);
+            ArchiveData chatData = new ArchiveData();
+            ArchiveRules chatRules = new ArchiveRules (chatData);
 
             Console.WriteLine($"Chat with {personName} (Type 'exit' to stop archiving):\n");
 
@@ -28,7 +28,7 @@ public class PUPHubChatsArchive
                     break;
                 }
 
-                chatRules.ArchiveMessage(new Message { Content = message });
+                chatRules.ArchiveMessage(new ArchiveModel { Content = message });
             }
 
             chatData.SaveToFile(fileName);

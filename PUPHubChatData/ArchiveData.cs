@@ -2,14 +2,14 @@
 
 public class ArchiveData
 {
-    private List<Message> messages = new List<Message>();
+    private List<ArchiveModel> messages = new List<ArchiveModel>();
 
-    public void AddMessage(Message message)
+    public void AddMessage(ArchiveModel message)
     {
         messages.Add(message);
     }
 
-    public List<Message> GetAllMessages()
+    public List<ArchiveModel> GetAllMessages()
     {
         return messages;
     }
