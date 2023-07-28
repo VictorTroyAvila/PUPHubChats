@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GroupChat",
-    "\\PUPHubChatData",
+    "\\PUPHubChatData\\bin",
     "\\PUPHubChats",
-    "\\PUPHubChatsModels",
-    "\\PUPHubChatsRules"
+    "\\PUPHubChatsModels"
   ],
   "SelectedNode": "\\PUPHubChatsRules",
   "PreviewInSolutionExplorer": false
