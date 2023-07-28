@@ -1,28 +1,26 @@
-﻿class Data
-{
-    private List<Model> mutedMembers = new List<Model>();
+﻿using System;
 
-    public void AddMember(Model member)
+public class MuteData
+{
+    private List<MuteModel> mutedMembers = new List<MuteModel>();
+
+    public void AddMember(MuteModel member)
     {
         mutedMembers.Add(member);
     }
 
-    public bool ContainsMember(Model member)
+    public bool ContainsMember(MuteModel member)
     {
         return mutedMembers.Contains(member);
     }
 
-    public void RemoveMember(Model member)
+    public void RemoveMember(MuteModel member)
     {
         mutedMembers.Remove(member);
     }
 
-    public List<Model> GetMutedMembers()
+    public List<MuteModel> GetMutedMembers()
     {
         return mutedMembers;
     }
-}
-
-internal class Model
-{
 }

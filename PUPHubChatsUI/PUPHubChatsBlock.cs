@@ -1,10 +1,14 @@
-﻿class PUPHubChatsBlock
-{
-    public static object Rules { get; private set; }
+﻿using System;
+using System.Collections.Generic;
+using PUPHubChatsData;
+using PUPHubChatsRules;
+using PUPHubChatsModel;
 
-    static void Main(string[] args)
+public class PUPHubChatsBlock
+{
+    public static void Block()
     {
-        DataStorage dataStorage = new DataStorage();
+        BlockData dataStorage = new BlockData();
 
         Console.WriteLine("Welcome to the Member Blocking System!");
 
@@ -18,6 +22,7 @@
             Console.Write("Please enter your choice: ");
             string choice = Console.ReadLine();
 
+            if (!BlockRules.IsValidChoice(choice))
             {
                 Console.WriteLine("Invalid choice. Please try again.");
                 continue;
@@ -40,8 +45,8 @@
                     break;
                 case "2":
                     Console.WriteLine("Blocked members:");
-                    List<MemberModel> blockedMembers = dataStorage.GetBlockedMembers();
-                    foreach (MemberModel blockedMember in blockedMembers)
+                    List<BlockModel> blockedMembers = dataStorage.GetBlockedMembers();
+                    foreach (BlockModel blockedMember in blockedMembers)
                     {
                         Console.WriteLine(blockedMember.Name);
                     }
@@ -65,37 +70,5 @@
                     break;
             }
         }
-    }
-}
-
-internal class MemberModel
-{
-    public bool Name { get; internal set; }
-}
-
-internal class DataStorage
-{
-    public DataStorage()
-    {
-    }
-
-    internal void BlockMember(string? memberToBlock)
-    {
-        throw new NotImplementedException();
-    }
-
-    internal List<MemberModel> GetBlockedMembers()
-    {
-        throw new NotImplementedException();
-    }
-
-    internal bool IsMemberBlocked(string? memberToBlock)
-    {
-        throw new NotImplementedException();
-    }
-
-    internal void UnblockMember(string? memberToUnblock)
-    {
-        throw new NotImplementedException();
     }
 }

@@ -1,6 +1,8 @@
-﻿public class PUPHubChatsReaction
+﻿using System;
+
+public class PUPHubChatsReaction
 {
-    static void Main()
+    public static void React()
     {
         ReactionApp reactionApp = new ReactionApp();
         reactionApp.Start();
@@ -16,8 +18,8 @@ public class ReactionApp
     public ReactionApp()
     {
         reactionData = new ReactionData();
-        reactionRules = new ReactionRules(reactionData);
-        reactionModel = new ReactionModel(reactionData);
+        reactionRules = new ReactionRules();
+        reactionModel = new ReactionModel();
     }
 
     public void Start()
@@ -29,45 +31,11 @@ public class ReactionApp
         string input = Console.ReadLine();
         if (int.TryParse(input, out int reactionNumber))
         {
-            reactionModel.ProcessReaction(reactionNumber);
+            reactionData.ProcessReaction(reactionNumber);
         }
         else
         {
             Console.WriteLine("Invalid input! Please enter a valid reaction number.");
         }
     }
-}
-
-internal class ReactionModel
-{
-    private ReactionData reactionData;
-
-    public ReactionModel(ReactionData reactionData)
-    {
-        this.reactionData = reactionData;
-    }
-
-    internal void ProcessReaction(int reactionNumber)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-internal class ReactionRules
-{
-    private ReactionData reactionData;
-
-    public ReactionRules(ReactionData reactionData)
-    {
-        this.reactionData = reactionData;
-    }
-
-    internal void DisplayReactions()
-    {
-        throw new NotImplementedException();
-    }
-}
-
-internal class ReactionData
-{
 }

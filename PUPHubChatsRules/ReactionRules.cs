@@ -1,31 +1,12 @@
-﻿namespace Feature1
+﻿using System;
+
+public class ReactionRules
 {
-    public class ReactionRules
+    public void DisplayReactions()
     {
-        public ReactionData reactionData;
-
-        public ReactionRules(ReactionData data)
+        foreach (ReactionModel.PUPHubReactions reaction in Enum.GetValues(typeof(ReactionModel.PUPHubReactions)))
         {
-            reactionData = data;
-        }
-
-        public void DisplayReactions()
-        {
-            foreach (ReactionData.PUPHubReactions reaction in Enum.GetValues(typeof(ReactionData.PUPHubReactions)))
-            {
-                Console.WriteLine($"{(int)reaction + 1}. {reaction}");
-            }
-        }
-    }
-
-    public class ReactionData
-    {
-        internal class PUPHubReactions
-        {
-            public static explicit operator int(PUPHubReactions v)
-            {
-                throw new NotImplementedException();
-            }
+            Console.WriteLine($"{(int)reaction + 1}. {reaction}");
         }
     }
 }

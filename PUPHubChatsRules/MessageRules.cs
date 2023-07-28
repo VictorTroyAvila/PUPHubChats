@@ -1,21 +1,23 @@
-﻿namespace Feature1
+﻿using System;
+
+public class UnsendRules
 {
-    class MessageRules
+    public bool CheckIfMessageUnsent(string userInput)
     {
-        public bool CheckIfMessageSent(string userInput)
+        if (userInput == "yes")
         {
-            if (userInput == "yes")
-            {
-                return true;
-            }
-            else if (userInput == "no")
-            {
-                return false;
-            }
-            else
-            {
-                return false;
-            }
+            Console.WriteLine("Message Has Been Unsent");
+            return true;
+        }
+        else if (userInput == "no")
+        {
+            Console.WriteLine("Message Has Been Sent");
+            return false;
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Please try again.");
+            return false;
         }
     }
 }

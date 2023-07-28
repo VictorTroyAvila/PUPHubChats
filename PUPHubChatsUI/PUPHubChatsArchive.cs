@@ -1,11 +1,9 @@
-﻿class Message
-{
-    public string Content { get; set; }
-}
+﻿using System;
 
-class PUPHubChatsArchive
+
+public class PUPHubChatsArchive
 {
-    private static void Main()
+    public static void Archive()
     {
         Console.WriteLine("Chat Archiving Program");
 
@@ -16,8 +14,8 @@ class PUPHubChatsArchive
 
         try
         {
-            ChatData chatData = new ChatData();
-            ChatRules chatRules = new ChatRules(chatData);
+            ArchiveData chatData = new ArchiveData();
+            ArchiveRules chatRules = new ArchiveRules(chatData);
 
             Console.WriteLine($"Chat with {personName} (Type 'exit' to stop archiving):\n");
 
@@ -30,7 +28,7 @@ class PUPHubChatsArchive
                     break;
                 }
 
-                chatRules.ArchiveMessage(new Message { Content = message });
+                chatRules.ArchiveMessage(new ArchiveModel { Content = message });
             }
 
             chatData.SaveToFile(fileName);
@@ -40,28 +38,5 @@ class PUPHubChatsArchive
         {
             Console.WriteLine($"An error occurred: {ex.Message}");
         }
-    }
-}
-
-internal class ChatRules
-{
-    private ChatData chatData;
-
-    public ChatRules(ChatData chatData)
-    {
-        this.chatData = chatData;
-    }
-
-    internal void ArchiveMessage(Message message)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-internal class ChatData
-{
-    internal void SaveToFile(string fileName)
-    {
-        throw new NotImplementedException();
     }
 }

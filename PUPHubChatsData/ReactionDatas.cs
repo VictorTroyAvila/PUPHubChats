@@ -1,44 +1,17 @@
-﻿namespace Feature1
+﻿using System;
+
+public class ReactionData
 {
-    public class ReactionDatas
+    public void ProcessReaction(int reactionNumber)
     {
-        public ReactionDatas reactionData;
-
-        public ReactionDatas(ReactionDatas data)
+        if (Enum.IsDefined(typeof(ReactionModel.PUPHubReactions), reactionNumber - 1))
         {
-            reactionData = data;
+            ReactionModel.PUPHubReactions selectedReaction = (ReactionModel.PUPHubReactions)(reactionNumber - 1);
+            Console.WriteLine($"You selected: {selectedReaction}");
         }
-
-        public void ProcessReaction(int reactionNumber)
+        else
         {
-            if (Enum.IsDefined(typeof(ReactionDatas.PUPHubReactions), reactionNumber - 1))
-            {
-                ReactionDatas.PUPHubReactions selectedReaction = (ReactionDatas.PUPHubReactions)(reactionNumber - 1);
-                Console.WriteLine($"You selected: {selectedReaction}");
-            }
-            else
-            {
-                Console.WriteLine("Invalid reaction number!");
-            }
-        }
-
-        private class PUPHubReactions
-        {
-            public static explicit operator PUPHubReactions(int v)
-            {
-                throw new NotImplementedException();
-            }
-        }
-    }
-
-    public class ReactionData
-    {
-        internal class PUPHubReactions
-        {
-            public static explicit operator PUPHubReactions(int v)
-            {
-                throw new NotImplementedException();
-            }
+            Console.WriteLine("Invalid reaction number!");
         }
     }
 }

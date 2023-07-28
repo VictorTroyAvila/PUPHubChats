@@ -1,4 +1,10 @@
-﻿class MemberModel
+﻿using System;
+using System.Collections.Generic;
+
+namespace PUPHubChatsModel
 {
-    public string Name { get; set; }
+    public class BlockModel
+    {
+        public string Name { get; set; }
+    }
 }

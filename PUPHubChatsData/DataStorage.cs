@@ -1,29 +1,31 @@
-﻿class DataStorage
+﻿using System;
+using PUPHubChatsModel;
+using System.Collections.Generic;
+
+namespace PUPHubChatsData
 {
-    private List<MemberModel> blockedMembers = new List<MemberModel>();
-
-    public bool IsMemberBlocked(string memberName)
+    public class BlockData
     {
-        return blockedMembers.Exists(m => m.Name == memberName);
-    }
+        private List<BlockModel> blockedMembers = new List<BlockModel>();
 
-    public void BlockMember(string memberName)
-    {
-        blockedMembers.Add(new MemberModel { Name = memberName });
-    }
+        public bool IsMemberBlocked(string memberName)
+        {
+            return blockedMembers.Exists(m => m.Name == memberName);
+        }
 
-    public void UnblockMember(string memberName)
-    {
-        blockedMembers.RemoveAll(m => m.Name == memberName);
-    }
+        public void BlockMember(string memberName)
+        {
+            blockedMembers.Add(new BlockModel { Name = memberName });
+        }
 
-    public List<MemberModel> GetBlockedMembers()
-    {
-        return blockedMembers;
-    }
-}
+        public void UnblockMember(string memberName)
+        {
+            blockedMembers.RemoveAll(m => m.Name == memberName);
+        }
 
-internal class MemberModel
-{
-    public string Name { get; internal set; }
+        public List<BlockModel> GetBlockedMembers()
+        {
+            return blockedMembers;
+        }
+    }
 }

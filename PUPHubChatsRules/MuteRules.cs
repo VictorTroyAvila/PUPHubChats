@@ -1,17 +1,15 @@
-﻿class MuteRules
+﻿using System;
+
+
+public class MuteRules
 {
-    public static void MuteMember(Model member)
+    public static void MuteMember(MuteModel member)
     {
         Console.WriteLine($"{member.Name} has been muted.");
     }
 
-    public static void UnmuteMember(Model member)
+    public static void UnmuteMember(MuteModel member)
     {
         Console.WriteLine($"{member.Name} has been unmuted.");
     }
-}
-
-public class Model
-{
-    public object Name { get; internal set; }
 }

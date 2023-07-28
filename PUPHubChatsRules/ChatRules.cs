@@ -1,26 +1,17 @@
-﻿class ChatRules
-{
-    private ChatData chatData;
+﻿using System;
 
-    public ChatRules(ChatData data)
+
+public class ArchiveRules
+{
+    private ArchiveData chatData;
+
+    public ArchiveRules(ArchiveData data)
     {
         chatData = data;
     }
 
-    public void ArchiveMessage(Message message)
+    public void ArchiveMessage(ArchiveModel message)
     {
         chatData.AddMessage(message);
-    }
-}
-
-public class Message
-{
-}
-
-internal class ChatData
-{
-    internal void AddMessage(Message message)
-    {
-        throw new NotImplementedException();
     }
 }

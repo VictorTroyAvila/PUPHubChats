@@ -1,10 +1,11 @@
-﻿class PUPHubChatsMute
+﻿using System;
+public class PUPHubChatsMute
 {
     private static object memberToMUte;
 
-    static void Main(string[] args)
+    public static void Mute()
     {
-        Data data = new Data();
+        MuteData data = new MuteData();
 
         Console.WriteLine("Mute");
 
@@ -23,7 +24,7 @@
                 case "1":
                     Console.Write("Enter the member name to mute: ");
                     string memberNameToMute = Console.ReadLine();
-                    Model memberToMute = new Model { Name = memberNameToMute };
+                    MuteModel memberToMute = new MuteModel { Name = memberNameToMute };
                     if (!data.ContainsMember(memberToMute))
                     {
                         data.AddMember(memberToMute);
@@ -36,7 +37,7 @@
                     break;
                 case "2":
                     Console.WriteLine("Muted members:");
-                    foreach (Model mutedMember in data.GetMutedMembers())
+                    foreach (MuteModel mutedMember in data.GetMutedMembers())
                     {
                         Console.WriteLine(mutedMember.Name);
                     }
@@ -44,7 +45,7 @@
                 case "3":
                     Console.Write("Enter the member name to unmute: ");
                     string memberNameToUnmute = Console.ReadLine();
-                    Model memberToUnmute = new Model { Name = memberNameToUnmute };
+                    MuteModel memberToUnmute = new MuteModel { Name = memberNameToUnmute };
                     if (data.ContainsMember(memberToUnmute))
                     {
                         data.RemoveMember(memberToUnmute);
@@ -65,32 +66,4 @@
             }
         }
     }
-}
-
-internal class Data
-{
-    internal void AddMember(Model memberToMute)
-    {
-        throw new NotImplementedException();
-    }
-
-    internal bool ContainsMember(Model memberToUnmute)
-    {
-        throw new NotImplementedException();
-    }
-
-    internal IEnumerable<Model> GetMutedMembers()
-    {
-        throw new NotImplementedException();
-    }
-
-    internal void RemoveMember(Model memberToUnmute)
-    {
-        throw new NotImplementedException();
-    }
-}
-
-internal class Model
-{
-    public string? Name { get; internal set; }
 }

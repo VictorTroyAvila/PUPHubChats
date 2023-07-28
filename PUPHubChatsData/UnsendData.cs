@@ -1,15 +1,16 @@
 ﻿using System;
 
-public class ArchiveData
-{
-    private List<ArchiveModel> messages = new List<ArchiveModel>();
 
-    public void AddMessage(ArchiveModel message)
+public class UnsendData
+{
+    private List<UnsendModel> messages = new List<UnsendModel>();
+
+    public void AddMessage(UnsendModel message)
     {
         messages.Add(message);
     }
 
-    public List<ArchiveModel> GetAllMessages()
+    public List<UnsendModel> GetAllMessages()
     {
         return messages;
     }
@@ -20,7 +21,7 @@ public class ArchiveData
         {
             foreach (var message in messages)
             {
-                sw.WriteLine(message.Content);
+                sw.WriteLine(message.MessageContent);
             }
         }
     }
