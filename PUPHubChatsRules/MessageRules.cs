@@ -10,16 +10,18 @@ namespace PUPHubChatsRules
     public class MessageRules
     {
         DateTime currentDateTime = DateTime.Now;
+        SearchData searchData = new SearchData();
         public string FormulateMessageData(string search, string Message)
         {
             string msgData;
             msgData = search + "\n" + currentDateTime + "\n" + Message + "\n";
             return msgData;
         }
-        public bool DoesExist(string search)
+        public string FormulateMessageData(string Message)
         {
-            var result = DataService.verifyStudent(search, DataService.GetStudents());
-                return result;
+            string msgData;
+            msgData = currentDateTime + "\n" + Message + "\n";
+            return msgData;
         }
     }
 }

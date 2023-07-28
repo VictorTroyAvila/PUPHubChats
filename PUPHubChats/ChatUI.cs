@@ -18,7 +18,7 @@ namespace UI
             Console.WriteLine("Select Recipient");
                 var search = Console.ReadLine().ToUpper();
 
-                if (messageRules.DoesExist(search))
+                if (SearchService.SearchUser(search))
                 {
                     Console.WriteLine("To: " + search);
                     Console.Write("Message: ");
@@ -26,14 +26,29 @@ namespace UI
 
                     MessageData = messageRules.FormulateMessageData(search, Message);
 
+                //Connection sa data base add to messagestatus
+                //vvv Substitution for database vvv
                     MessageHistory.Add(MessageData);
-                    //sQLData.addData();
-
+                    Core.CoreUI();
                 }
                 else
                 {
-                    Console.WriteLine("Hindi na hanap");
+                    Console.WriteLine("User could not be found");
+                    Core.CoreUI();
                 }
 }
+        public static void ComposeToGroup()
+        {
+            MessageRules messageRules = new MessageRules();
+            List<string> MessageHistory = new List<string>();
+            String Message, choice, MessageData;
+            Console.Write("Message: ");
+            Message = Console.ReadLine();
+
+            MessageData = messageRules.FormulateMessageData(Message);
+
+            MessageHistory.Add(MessageData);
+            GroupChatUI.GroupChat();
+        }
     }
 }

@@ -8,8 +8,6 @@ public class PUPHubChatsMute
     {
         MuteData data = new MuteData();
 
-        Console.WriteLine("Mute");
-
         while (true)
         {
             Console.WriteLine();
@@ -29,7 +27,7 @@ public class PUPHubChatsMute
                     if (!data.ContainsMember(memberToMute))
                     {
                         data.AddMember(memberToMute);
-                        Console.WriteLine($"{memberToMUte} has been Muted.");
+                        Console.WriteLine($"{memberNameToMute} has been Muted.");
                     }
                     else
                     {

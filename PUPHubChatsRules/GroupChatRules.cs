@@ -10,36 +10,19 @@ using System.Collections.Generic;
             data = new GroupChatData();
         }
 
-        public void JoinGroup(string username, string groupName)
+        public bool IsJoinedGroup(string username, string groupName)
         {
             if (data.Groups.ContainsKey(groupName))
             {
                 data.Groups[groupName].Add(username);
-                Console.WriteLine($"You have joined the group: {groupName}.");
+                return true;
             }
             else
             {
-                Console.WriteLine($"The group {groupName} does not exist.");
+                return false;
             }
         }
-
-        public void ShowGroupMembers(string groupName)
-        {
-            if (data.Groups.ContainsKey(groupName))
-            {
-                Console.WriteLine($"\nMembers of the group {groupName}:");
-                foreach (var member in data.Groups[groupName])
-                {
-                    Console.WriteLine(member);
-                }
-            }
-            else
-            {
-                Console.WriteLine("The group does not exist.");
-            }
-        }
-
-        public void ShowJoinedGroups(string username)
+        public string ShowJoinedGroups(string username)
         {
             Console.WriteLine($"\nGroups joined by {username}:");
             bool foundGroup = false;
@@ -47,44 +30,46 @@ using System.Collections.Generic;
             {
                 if (data.Groups[group].Contains(username))
                 {
-                    Console.WriteLine(group);
+                return group;
                     foundGroup = true;
                 }
             }
 
             if (!foundGroup)
             {
-                Console.WriteLine("You haven't joined any groups.");
+                return "You haven't joined any groups.";
             }
+        return "";
         }
-
-        public void CreateGroup(string username, string groupName)
+    public void CreateGroup(string username, string groupName)
+    {
+            data.Groups[groupName] = new List<string> { username };
+    }
+    public bool CheckGroup(string username, string groupName)
         {
             if (data.Groups.ContainsKey(groupName))
             {
-                Console.WriteLine($"The group {groupName} already exists.");
+                return true;
             }
             else
             {
-                data.Groups[groupName] = new List<string> { username };
-                Console.WriteLine($"Group {groupName} created successfully.");
+                return false;
             }
         }
 
-        public void ViewGroups()
+        public string ViewGroups()
         {
-            Console.WriteLine("\nExisting Groups:");
-
             if (data.Groups.Count > 0)
             {
                 foreach (var group in data.Groups.Keys)
                 {
-                    Console.WriteLine(group);
+                    return group;
                 }
             }
             else
             {
-                Console.WriteLine("No groups available.");
+                return "No groups available.";
             }
+        return "";
         }
     }

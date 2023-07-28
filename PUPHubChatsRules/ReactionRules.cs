@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using PUPHubChatsData;
 
 public class ReactionRules
 {
-    public void DisplayReactions()
+    ReactionData reactionData = new ReactionData();
+    public Enum GetReaction(int reaction)
     {
-        foreach (ReactionModel.PUPHubReactions reaction in Enum.GetValues(typeof(ReactionModel.PUPHubReactions)))
-        {
-            Console.WriteLine($"{(int)reaction + 1}. {reaction}");
-        }
+        Enum selectedReaction = reactionData.ProcessReaction(reaction);
+        return selectedReaction;
     }
 }

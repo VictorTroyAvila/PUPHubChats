@@ -21,4 +21,26 @@ public class SearchData
     {
         return sourceList;
     }
+    
+    public static bool verifyStudent(string search, List<string> students)
+    {
+        bool result = false;
+
+        foreach (var student in students)
+        {
+            if (student == search)
+            {
+                result = true;
+            }
+        }
+        return result;
+    }
+    public static string MessageHistory(string MessageData)
+    {
+        List<string> msgHistory = new List<string>();
+
+        msgHistory.Add(MessageData);
+
+        return "";
+    }
 }
