@@ -5,6 +5,6 @@ public class EnableDisableData
 {
     public void SendMessage(string message)
     {
-       Console.WriteLine("Sending message: " + message);
+     
     }
 }
