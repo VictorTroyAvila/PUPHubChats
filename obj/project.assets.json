@@ -2308,11 +2308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mykhaela\\source\\repos\\Featuressss\\Featuressss.csproj",
+      "projectUniqueName": "C:\\Users\\Mykhaela\\Documents\\GitHub\\PUPHubChats\\Featuressss.csproj",
       "projectName": "Featuressss",
-      "projectPath": "C:\\Users\\Mykhaela\\source\\repos\\Featuressss\\Featuressss.csproj",
+      "projectPath": "C:\\Users\\Mykhaela\\Documents\\GitHub\\PUPHubChats\\Featuressss.csproj",
       "packagesPath": "C:\\Users\\Mykhaela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mykhaela\\source\\repos\\Featuressss\\obj\\",
+      "outputPath": "C:\\Users\\Mykhaela\\Documents\\GitHub\\PUPHubChats\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mykhaela\\AppData\\Roaming\\NuGet\\NuGet.Config",

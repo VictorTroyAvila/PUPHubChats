@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axDhGyvNTevlDUUaVMJWG9ZfDSph7fkx2X6b39NTBWStB6+BKo4e85fHNt23GxpMWVWaNrsDkF8JNWisLxFT0A==",
+  "dgSpecHash": "hBHM97Y3AHNb68uxtnkEAdy3WtGlTiU62cxSVzUFVU14Kr4OhadIisiT92zp5ncEpKdL689JAXKL6x5sb0igJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mykhaela\\source\\repos\\Featuressss\\Featuressss.csproj",
+  "projectFilePath": "C:\\Users\\Mykhaela\\Documents\\GitHub\\PUPHubChats\\Featuressss.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mykhaela\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Mykhaela\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
