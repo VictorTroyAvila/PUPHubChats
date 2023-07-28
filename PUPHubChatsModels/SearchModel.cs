@@ -1,8 +1,6 @@
 ﻿using System;
 
-public class Class1
+public class SearchModel
 {
-	public Class1()
-	{
-	}
+    public string Name { get; set; }
 }

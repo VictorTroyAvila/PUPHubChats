@@ -1,8 +1,18 @@
 ﻿using System;
 
-public class Class1
+public class SearchService
 {
-	public Class1()
-	{
-	}
+    public List<SearchModel> PerformSearch(List<SearchModel> sourceList, string searchKeyword)
+    {
+        List<SearchModel> results = new List<SearchModel>();
+        foreach (SearchModel person in sourceList)
+        {
+       
+            if (person.Name.Contains(searchKeyword, StringComparison.OrdinalIgnoreCase))
+            {
+                results.Add(person);
+            }
+        }
+        return results;
+    }
 }
