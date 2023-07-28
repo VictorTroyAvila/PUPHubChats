@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 public class GroupChatRules
@@ -41,7 +42,6 @@ public class GroupChatRules
 
     public void ShowJoinedGroups(string username)
     {
-        Console.WriteLine($"\nGroups joined by {username}:");
         bool foundGroup = false;
         foreach (var group in data.Groups.Keys)
         {

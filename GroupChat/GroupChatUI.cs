@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 public class GroupChatUI
 {
     static void Main(string[] args)
@@ -59,3 +58,4 @@ public class GroupChatUI
         }
     }
 }
+
