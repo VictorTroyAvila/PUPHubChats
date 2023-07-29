@@ -11,6 +11,7 @@ public class GroupChatUI
         {
             GroupChatRules rules = new GroupChatRules();
             GroupChatUI groupChatUI = new GroupChatUI();
+            
             GCMM:
             Console.WriteLine("----- GROUP CHAT -----");
 
@@ -67,8 +68,7 @@ public class GroupChatUI
                 {
                     Console.WriteLine($"Group {groupNameToCreate} created successfully.");
                     rules.CreateGroup(usernameToCreateGroup, groupNameToCreate);
-                    //^^^ Substitution for Database ^^^
-                    //Connect sa database create new table according sa groupNameToCreate
+                    
                 }
                 goto GCMM;
 
