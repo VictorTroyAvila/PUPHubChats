@@ -29,14 +29,18 @@ public class PUPHubChatsArchive
                 }
 
                 chatRules.ArchiveMessage(new ArchiveModel { Content = message });
+               
             }
 
             chatData.SaveToFile(fileName);
             Console.WriteLine($"Chat with {personName} has been archived successfully in {fileName}.");
+            Core.CoreUI();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"An error occurred: {ex.Message}");
+            Core.CoreUI();
+
         }
     }
 }
