@@ -14,6 +14,6 @@ public class ArchiveRules
     public void ArchiveMessage(ArchiveModel message)
     {
         SQLDataMessageStatus sQLMStatus = new SQLDataMessageStatus();
-        sQLMStatus.EditArchiveMessage(message.ToString())
+        sQLMStatus.EditArchiveMessage(message.ToString());
     }
 }

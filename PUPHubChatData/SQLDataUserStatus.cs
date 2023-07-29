@@ -10,7 +10,7 @@ namespace Data
     public class SQLDataUserStatus
     {
         private string connectionString = "Data Source=DESKTOP-TBGPD15\\MSSQLSERVER01;Initial Catalog=Testest;Integrated Security=True;";
-
+        //"Server=tcp:4.193.106.92,1433;Database=PUPHubPoints;User Id = sa; Password=PUPHUB123!;"
         // Method to add a member to the BlockMember column in the database
         public void BlockMember(string memberName)
         {

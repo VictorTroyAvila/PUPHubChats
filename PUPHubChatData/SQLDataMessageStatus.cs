@@ -10,7 +10,7 @@ namespace Data
     public class SQLDataMessageStatus
     {
         private string connectionString = "Data Source=DESKTOP-TBGPD15\\MSSQLSERVER01;Initial Catalog=Testest;Integrated Security=True;";
-
+        //"Server=tcp:4.193.106.92,1433;Database=PUPHubPoints;User Id = sa; Password=PUPHUB123!;"
         // Method to add a message reaction to the MessageReactions column in the database
         public void EditMessageReaction(string reaction)
         {
