@@ -9,7 +9,7 @@ namespace Data
 {
     public class SQLDataMessageStatus
     {
-        private string connectionString = "Data Source=DESKTOP-TBGPD15\\MSSQLSERVER01;Initial Catalog=Testest;Integrated Security=True;";
+        private string connectionString = "Data Source=YUKI;Initial Catalog=dev;Integrated Security=True;";
 
         // Method to add a message reaction to the MessageReactions column in the database
         public void EditMessageReaction(string reaction)

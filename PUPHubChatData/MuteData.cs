@@ -10,7 +10,7 @@ public class MuteData
         SQLDataUserStatus sQLUStatus = new SQLDataUserStatus();
         mutedMembers.Add(member);
         string mute = "Muted";
-        sQLUStatus.MuteMember(mute);
+        sQLUStatus.MuteMember(member.Name, mute); 
     }
 
     public bool ContainsMember(MuteModel member)
@@ -23,7 +23,7 @@ public class MuteData
         SQLDataUserStatus sQLUStatus = new SQLDataUserStatus();
         mutedMembers.Remove(member);
         string mute = "Unmuted";
-        sQLUStatus.MuteMember(mute);
+        sQLUStatus.MuteMember(member.Name, mute); 
     }
 
     public List<MuteModel> GetMutedMembers()
@@ -31,4 +31,3 @@ public class MuteData
         return mutedMembers;
     }
 }
-

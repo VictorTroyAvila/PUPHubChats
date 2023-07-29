@@ -3,7 +3,9 @@ using System.Collections.Generic;
 
     public class GroupChatData
     {
-        public Dictionary<string, List<string>> Groups { get; set; }
+        
+    
+       public Dictionary<string, List<string>> Groups { get; set; }
 
         public GroupChatData()
         {

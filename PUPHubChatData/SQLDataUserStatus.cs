@@ -9,7 +9,7 @@ namespace Data
 {
     public class SQLDataUserStatus
     {
-        private string connectionString = "Data Source=DESKTOP-TBGPD15\\MSSQLSERVER01;Initial Catalog=Testest;Integrated Security=True;";
+        private string connectionString = "Data Source=YUKI;Initial Catalog=dev;Integrated Security=True;";
 
         // Method to add a member to the BlockMember column in the database
         public void BlockMember(string memberName)
@@ -18,7 +18,7 @@ namespace Data
         }
 
         // Method to add a member to the MutedMember column in the database
-        public void MuteMember(string memberName)
+        public void MuteMember(string memberName, string mute)
         {
             AddMemberToColumn("MutedMember", memberName);
         }

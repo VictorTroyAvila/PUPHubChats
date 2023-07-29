@@ -27,7 +27,6 @@ public class ReactionApp
         ReactionApp reactionApp = new ReactionApp();
         SQLDataMessageStatus sqlMStatus = new SQLDataMessageStatus();
 
-        sqlMStatus.DisplayMessageStatus();
 
         Console.WriteLine("Select a reaction:");
         reactionApp.DisplayReactions();
@@ -38,6 +37,9 @@ public class ReactionApp
         {
             Enum ChosenReaction = reactionRules.GetReaction(reactionNumber);
             sqlMStatus.EditMessageReaction(ChosenReaction.ToString());
+
+            Console.WriteLine("The Reaction you selected is: " + ChosenReaction);
+            Core.CoreUI();
         }
         else
         {
@@ -50,5 +52,6 @@ public class ReactionApp
         {
             Console.WriteLine($"{(int)reaction + 1}. {reaction}");
         }
+      
     }
 }

@@ -10,6 +10,7 @@ using System.Collections.Generic;
             data = new GroupChatData();
         }
 
+    //Joining Group
         public bool IsJoinedGroup(string username, string groupName)
         {
             if (data.Groups.ContainsKey(groupName))
@@ -22,25 +23,10 @@ using System.Collections.Generic;
                 return false;
             }
         }
-        public string ShowJoinedGroups(string username)
-        {
-            Console.WriteLine($"\nGroups joined by {username}:");
-            bool foundGroup = false;
-            foreach (var group in data.Groups.Keys)
-            {
-                if (data.Groups[group].Contains(username))
-                {
-                return group;
-                    foundGroup = true;
-                }
-            }
 
-            if (!foundGroup)
-            {
-                return "You haven't joined any groups.";
-            }
-        return "";
-        }
+    
+
+    //Creating Group
     public void CreateGroup(string username, string groupName)
     {
             data.Groups[groupName] = new List<string> { username };
@@ -57,7 +43,32 @@ using System.Collections.Generic;
             }
         }
 
-        public string ViewGroups()
+
+    //Show Joined Group
+    public string ShowJoinedGroups(string username)
+    {
+        Console.WriteLine($"\nGroups joined by {username}:");
+        bool foundGroup = false;
+        foreach (var group in data.Groups.Keys)
+        {
+            if (data.Groups[group].Contains(username))
+            {
+                return group;
+                foundGroup = true;
+            }
+        }
+
+        if (!foundGroup)
+        {
+            return "You haven't joined any groups.";
+        }
+        return "";
+    }
+
+
+
+    //Viewing Group
+    public string ViewGroups()
         {
             if (data.Groups.Count > 0)
             {

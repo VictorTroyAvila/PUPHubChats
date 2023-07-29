@@ -50,12 +50,14 @@ public class PUPHubChatUnsend
     static void DisplayUnsentMessage()
     {
         Console.WriteLine("You unsent a message.");
+        Core.CoreUI();
     }
 
     static void DisplayChatMessage(string chatMessage)
     {
         Console.WriteLine("Message You've Sent:");
         Console.WriteLine(chatMessage);
+        Core.CoreUI();
     }
 }
 
